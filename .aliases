@@ -1,0 +1,33 @@
+alias clr="tput reset"
+alias PSY="sudo pacman -Syu"
+alias PSS="sudo pacman -Ss"
+alias YSS="yaourt -Ss"
+alias YSY="yaourt -S"
+alias RSCN="sudo pacman -Rscn"
+alias PMDR="~/Documents/Scripts/pomedoro.sh"
+alias :q="exit"
+
+alias SSHDEV="ssh transight@192.168.0.3"
+alias SSHT64="ssh root@158.69.242.211"
+alias SSHT32="ssh root@94.23.237.130"
+alias SSHT16="ssh root@94.23.33.106"
+alias SSHSIA="ssh root@158.69.246.130"
+alias SSHGEM="ssh root@158.69.241.107"
+alias chktsks="~/Documents/Scripts/read_mail_to_tasks.py"
+
+alias GPLM="git pull origin master"
+alias GPHM="git push origin master"
+alias GSTS="git status"
+
+alias STBR="/home/anoop/Documents/Scripts/startbrover.sh"
+alias STIN="/home/anoop/Documents/Scripts/startInsta.sh"
+
+alias lc="colorls"
+
+alias DSSA="~/Documents/Scripts/deploySianaAPP.sh srv"
+alias DDSA="~/Documents/Scripts/deploySianaAPP.sh dev"
+alias DBSA="~/Documents/Scripts/deploySianaAPP.sh build"
+alias DWSA="~/Documents/Scripts/deploySianaAPP.sh web"
+alias DSSI="~/Documents/Scripts/deploySianaAPI.sh"
+	
+alias CDSA="cd ~/Documents/Projects/servemeangular/"
