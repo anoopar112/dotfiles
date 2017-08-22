@@ -1,0 +1,948 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALIGNMENT_CHOICES	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    ALIGNMENT_CHOICES = ($/;"	v	class:ImageBlock
+ALLOWED_HOSTS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^ALLOWED_HOSTS = ['*']$/;"	v
+ALLOWED_HOSTS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^ALLOWED_HOSTS = ['*']$/;"	v
+APIView	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from rest_framework.views import APIView$/;"	i
+AUTHENTICATION_BACKENDS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^AUTHENTICATION_BACKENDS = ($/;"	v
+AUTHENTICATION_BACKENDS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^AUTHENTICATION_BACKENDS = ($/;"	v
+AUTH_PASSWORD_VALIDATORS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_USER_MODEL	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^from oscar.core.compat import AUTH_USER_MODEL$/;"	i
+AbstractPromotion	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from oscar.apps.promotions.models import AbstractPromotion$/;"	i
+AbstractPromotion	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^from oscar.apps.promotions.models import AbstractPromotion$/;"	i
+AdminapiConfig	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/apps.py	/^class AdminapiConfig(AppConfig):$/;"	c
+AppConfig	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/apps.py	/^from django.apps import AppConfig$/;"	i
+AppConfig	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/config.py	/^from django.apps import AppConfig$/;"	i
+AppConfig	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/config.py	/^from django.apps import AppConfig$/;"	i
+AppConfig	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/config.py	/^from django.apps import AppConfig$/;"	i
+AppNotFoundError	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^from oscar.core.loading import AppNotFoundError, get_class$/;"	i
+AppUser	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/models.py	/^class AppUser(models.Model):$/;"	c
+AppUser	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from AdminAPI.models import AppUser$/;"	i
+AppUser	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from AdminAPI.models import AppUser$/;"	i
+AppearanceApplication	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^class AppearanceApplication(DashboardApplication):$/;"	c
+AppearanceConfig	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/config.py	/^class AppearanceConfig(AppConfig):$/;"	c
+AppearanceDashboardConfig	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/config.py	/^class AppearanceDashboardConfig(AppConfig):$/;"	c
+AppearanceForm	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^class AppearanceForm(forms.ModelForm):$/;"	c
+AppearanceSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^class AppearanceSettings(models.Model):$/;"	c
+AppearanceSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/admin.py	/^AppearanceSettings = get_model('appearance', 'AppearanceSettings')$/;"	v
+AppearanceSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/context_processor.py	/^AppearanceSettings = get_model('appearance', 'AppearanceSettings')$/;"	v
+AppearanceSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^AppearanceSettings = get_model('appearance', 'AppearanceSettings')$/;"	v
+AppearanceSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/models.py	/^    class AppearanceSettings(AppearanceSettings):$/;"	c
+AppearanceSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^AppearanceSettings = get_model('appearance', 'AppearanceSettings')$/;"	v
+AppearanceSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^AppearanceSettings = get_model('appearance', 'AppearanceSettings')$/;"	v
+AppearanceUpdateForm	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^class AppearanceUpdateForm(forms.ModelForm):$/;"	c
+AppearanceView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class AppearanceView(generic.UpdateView):$/;"	c
+Application	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^from oscar.core.application import Application$/;"	i
+AuthenticationForm	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^from django.contrib.auth.forms import AuthenticationForm$/;"	i
+Avg	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from django.db.models import Avg, Count, Sum$/;"	i
+BASE_DIR	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+Basket	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^Basket = get_model('basket', 'Basket')$/;"	v
+ChangeOrderStatusView	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^class ChangeOrderStatusView(generics.UpdateAPIView):$/;"	c
+CheckoutApplication	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/app.py	/^from oscar.apps.checkout.app import CheckoutApplication$/;"	i
+Closing_time	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    Closing_time = models.TimeField(blank=True,null=True)$/;"	v	class:DayTimings
+ConditionalOffer	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^ConditionalOffer = get_model('offer', 'ConditionalOffer')$/;"	v
+ContentType	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.contrib.contenttypes.models import ContentType$/;"	i
+CorePaymentDetailsView	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from oscar.apps.checkout.views import PaymentDetailsView as CorePaymentDetailsView$/;"	i
+Count	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.db.models import Count$/;"	i
+Count	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from django.db.models import Avg, Count, Sum$/;"	i
+CreateAutomaticProductListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateAutomaticProductListView(CreateView):$/;"	c
+CreateEventBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateEventBlockView(CreateView):$/;"	c
+CreateEventSliderBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateEventSliderBlockView(CreateView):$/;"	c
+CreateHandPickedProductListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateHandPickedProductListView(CreateView):$/;"	c
+CreateImageBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateImageBlockView(CreateView):$/;"	c
+CreateImageView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateImageView(CreateView):$/;"	c
+CreateMapBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateMapBlockView(CreateView):$/;"	c
+CreateMultiImageView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateMultiImageView(CreateView):$/;"	c
+CreateRawHTMLView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateRawHTMLView(CreateView):$/;"	c
+CreateRedirectView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateRedirectView(generic.RedirectView):$/;"	c
+CreateSingleProductView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateSingleProductView(CreateView):$/;"	c
+CreateView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class CreateView(PromotionMixin, generic.CreateView):$/;"	c
+D	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from decimal import Decimal as D$/;"	i
+DATABASES	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^DATABASES = {$/;"	v
+DATABASES	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^DATABASES = {$/;"	v
+DAY_CHOICES	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    DAY_CHOICES = ($/;"	v	class:DayTimings
+DEBUG	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^DEBUG = True$/;"	v
+DEBUG	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^DEBUG = True$/;"	v
+DashboardApplication	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^class DashboardApplication(BaseDashboardApplication):$/;"	c
+DashboardApplication	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^from oscar.core.application import DashboardApplication$/;"	i
+DashboardApplication	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^from oscar.core.application import DashboardApplication$/;"	i
+DashboardConfig	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/config.py	/^class DashboardConfig(AppConfig):$/;"	c
+DashboardTable	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/tables.py	/^class DashboardTable(Table):$/;"	c
+DayTimings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^class DayTimings(models.Model):$/;"	c
+DayTimings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^DayTimings = get_model('appearance', 'DayTimings')$/;"	v
+DayTimings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/models.py	/^    class DayTimings(DayTimings):$/;"	c
+DayTimings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^DayTimings = get_model('appearance', 'DayTimings')$/;"	v
+DayTimings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^DayTimings = get_model('appearance', 'DayTimings')$/;"	v
+DayTimings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^DayTimings = get_model('appearance', 'DayTimings')$/;"	v
+DayTimingsForm	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^class DayTimingsForm(forms.ModelForm):$/;"	c
+DeleteAutomaticProductListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteAutomaticProductListView(DeleteView):$/;"	c
+DeleteEventBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteEventBlockView(DeleteView):$/;"	c
+DeleteEventSliderBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteEventSliderBlockView(DeleteView):$/;"	c
+DeleteHandPickedProductListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteHandPickedProductListView(DeleteView):$/;"	c
+DeleteImageBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteImageBlockView(DeleteView):$/;"	c
+DeleteImageView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteImageView(DeleteView):$/;"	c
+DeleteMapBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteMapBlockView(DeleteView):$/;"	c
+DeleteMultiImageView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteMultiImageView(DeleteView):$/;"	c
+DeletePagePromotionView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeletePagePromotionView(generic.DeleteView):$/;"	c
+DeleteRawHTMLView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteRawHTMLView(DeleteView):$/;"	c
+DeleteSingleProductView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteSingleProductView(DeleteView):$/;"	c
+DeleteView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class DeleteView(generic.DeleteView):$/;"	c
+EMAIL_BACKEND	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'$/;"	v
+EMAIL_BACKEND	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'$/;"	v
+EMAIL_HOST	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^EMAIL_HOST = 'smtp.gmail.com'$/;"	v
+EMAIL_HOST_PASSWORD	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^EMAIL_HOST_PASSWORD = 'qowfuhjgzkvshkqe'$/;"	v
+EMAIL_HOST_USER	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^EMAIL_HOST_USER = 'instacuisines@gmail.com'$/;"	v
+EMAIL_PORT	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^EMAIL_PORT = 587$/;"	v
+EMAIL_USE_TLS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^EMAIL_USE_TLS = True$/;"	v
+EventBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/conf.py	/^EventBlock = get_class('forked_apps.promotions.models','EventBlock')$/;"	v
+EventBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^class EventBlock(AbstractPromotion):$/;"	c
+EventDataForm	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^class EventDataForm(forms.ModelForm):$/;"	c
+EventSliderBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/conf.py	/^EventSliderBlock = get_class('forked_apps.promotions.models','EventSliderBlock')$/;"	v
+EventSliderBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^class EventSliderBlock(AbstractPromotion):$/;"	c
+ExpressDashboardApplication	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^class ExpressDashboardApplication(Application):$/;"	c
+ExtendedURLField	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^from oscar.forms.fields import ExtendedURLField$/;"	i
+FCMNotification	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from pyfcm import FCMNotification$/;"	i
+Facade	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^class Facade(object):$/;"	c
+Facade	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from oscar_stripe.facade import Facade$/;"	i
+GetOrderDetails	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^class GetOrderDetails(APIView):$/;"	c
+HAYSTACK_CONNECTIONS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^HAYSTACK_CONNECTIONS = {$/;"	v
+HAYSTACK_CONNECTIONS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^HAYSTACK_CONNECTIONS = {$/;"	v
+Http404	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^from django.http import Http404$/;"	i
+HttpResponse	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.http import HttpResponse$/;"	i
+HttpResponse	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.shortcuts import HttpResponse$/;"	i
+HttpResponseRedirect	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.http import HttpResponseRedirect$/;"	i
+HttpResponseRedirect	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.http import HttpResponseRedirect$/;"	i
+HttpResponseRedirect	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.http import HttpResponseRedirect$/;"	i
+INSTALLED_APPS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^INSTALLED_APPS = [$/;"	v
+ImageBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/conf.py	/^ImageBlock = get_class('forked_apps.promotions.models','ImageBlock')$/;"	v
+ImageBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^class ImageBlock(AbstractPromotion):$/;"	c
+ImproperlyConfigured	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/menu.py	/^from django.core.exceptions import ImproperlyConfigured$/;"	i
+ImproperlyConfigured	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^from django.core.exceptions import ImproperlyConfigured$/;"	i
+IndexView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^class IndexView(updatedCheckoutMixin, generic.FormView):$/;"	c
+IndexView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^class IndexView(TemplateView):$/;"	c
+InvalidGatewayRequestError	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^from oscar.apps.payment.exceptions import UnableToTakePayment, InvalidGatewayRequestError$/;"	i
+LANGUAGE_CODE	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+Line	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^Line = get_model('order', 'Line')$/;"	v
+ListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.views.generic import ListView$/;"	i
+ListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class ListView(generic.TemplateView):$/;"	c
+LocationCreateView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class LocationCreateView(generic.CreateView):$/;"	c
+LocationDeleteView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class LocationDeleteView(generic.DeleteView):$/;"	c
+LocationListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class LocationListView(generic.ListView):$/;"	c
+LocationManageView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class LocationManageView(generic.UpdateView):$/;"	c
+LocationSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^class LocationSettings(models.Model):$/;"	c
+LocationSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/models.py	/^    class LocationSettings(LocationSettings):$/;"	c
+LocationSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^LocationSettings = get_model('appearance','LocationSettings')$/;"	v
+LocationSettings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^LocationSettings = get_model('appearance','LocationSettings')$/;"	v
+MEDIA_ROOT	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^MEDIA_ROOT = location('uploads')$/;"	v
+MEDIA_ROOT	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^MEDIA_ROOT = location('uploads')$/;"	v
+MEDIA_URL	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^MEDIA_URL = '\/uploads\/'$/;"	v
+MEDIA_URL	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^MEDIA_URL = '\/uploads\/'$/;"	v
+MIDDLEWARE	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^MIDDLEWARE = [$/;"	v
+MapBlock	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^MapBlock = get_model('promotions','MapBlock')$/;"	v
+MapBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/context_processor.py	/^MapBlock = get_model('promotions','MapBlock')$/;"	v
+MapBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/conf.py	/^MapBlock = get_class('forked_apps.promotions.models','MapBlock')$/;"	v
+MapBlock	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^class MapBlock(AbstractPromotion):$/;"	c
+Meta	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/serializers.py	/^    class Meta:$/;"	c	class:OrderStatusSerializer
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    class Meta:$/;"	c	class:AppearanceSettings
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    class Meta:$/;"	c	class:DayTimings
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    class Meta:$/;"	c	class:LocationSettings
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^    class Meta:$/;"	c	class:AppearanceForm
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^    class Meta:$/;"	c	class:DayTimingsForm
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^    class Meta:$/;"	c	class:AppearanceUpdateForm
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^    class Meta:$/;"	c	class:TimingCreateForm
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^    class Meta:$/;"	c	class:EventDataForm
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/tables.py	/^    class Meta:$/;"	c	class:DashboardTable
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    class Meta:$/;"	c	class:EventBlock
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    class Meta:$/;"	c	class:EventSliderBlock
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    class Meta:$/;"	c	class:ImageBlock
+Meta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    class Meta:$/;"	c	class:MapBlock
+Migration	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^class Migration(migrations.Migration):$/;"	c
+NoReverseMatch	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^from django.core.urlresolvers import NoReverseMatch, resolve, reverse$/;"	i
+Node	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/menu.py	/^Node = get_class('dashboard.nav', 'Node')$/;"	v
+Node	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^class Node(object):$/;"	c
+OSCAR_ALLOW_ANON_CHECKOUT	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^OSCAR_ALLOW_ANON_CHECKOUT=True$/;"	v
+OSCAR_ALLOW_ANON_CHECKOUT	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^OSCAR_ALLOW_ANON_CHECKOUT=True$/;"	v
+OSCAR_ALLOW_ANON_REVIEWS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^OSCAR_ALLOW_ANON_REVIEWS=False$/;"	v
+OSCAR_ALLOW_ANON_REVIEWS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^OSCAR_ALLOW_ANON_REVIEWS=False$/;"	v
+OSCAR_INITIAL_LINE_STATUS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^OSCAR_INITIAL_LINE_STATUS = 'Pending'$/;"	v
+OSCAR_INITIAL_LINE_STATUS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^OSCAR_INITIAL_LINE_STATUS = 'Pending'$/;"	v
+OSCAR_INITIAL_ORDER_STATUS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^OSCAR_INITIAL_ORDER_STATUS = 'Pending'$/;"	v
+OSCAR_INITIAL_ORDER_STATUS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^OSCAR_INITIAL_ORDER_STATUS = 'Pending'$/;"	v
+OSCAR_MAIN_TEMPLATE_DIR	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^from oscar import OSCAR_MAIN_TEMPLATE_DIR$/;"	i
+OSCAR_MAIN_TEMPLATE_DIR	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^from oscar import OSCAR_MAIN_TEMPLATE_DIR$/;"	i
+OSCAR_MODERATE_REVIEWS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^OSCAR_MODERATE_REVIEWS=True$/;"	v
+OSCAR_MODERATE_REVIEWS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^OSCAR_MODERATE_REVIEWS=True$/;"	v
+OSCAR_ORDER_STATUS_PIPELINE	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^OSCAR_ORDER_STATUS_PIPELINE = {$/;"	v
+OSCAR_ORDER_STATUS_PIPELINE	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^OSCAR_ORDER_STATUS_PIPELINE = {$/;"	v
+OSCAR_PROMOTION_POSITIONS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^OSCAR_PROMOTION_POSITIONS = (('page', 'Page'),)$/;"	v
+OSCAR_PROMOTION_POSITIONS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^OSCAR_PROMOTION_POSITIONS = (('page', 'Page'),)$/;"	v
+OSCAR_SHOP_NAME	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^OSCAR_SHOP_NAME="Pathiri"$/;"	v
+OSCAR_SHOP_NAME	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^OSCAR_SHOP_NAME="Pathiri"$/;"	v
+ObjectDoesNotExist	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^from django.core.exceptions import ObjectDoesNotExist$/;"	i
+Opening_time	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    Opening_time = models.TimeField(blank=True,null=True)$/;"	v	class:DayTimings
+Order	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/serializers.py	/^Order = get_model('order', 'Order')$/;"	v
+Order	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^Order = get_model('order', 'Order')$/;"	v
+Order	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^Order = get_model('order', 'Order')$/;"	v
+Order	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^Order = apps.get_model('order', 'Order')$/;"	v
+OrderLine	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^OrderLine = get_model('order', 'Line')$/;"	v
+OrderLineAttribute	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^OrderLineAttribute = get_model('order', 'LineAttribute')$/;"	v
+OrderList	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^class OrderList(generics.ListAPIView):$/;"	c
+OrderPageNumberClass	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^class OrderPageNumberClass(PageNumberPagination):$/;"	c
+OrderSerializer	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from oscarapi.serializers.checkout import OrderSerializer$/;"	i
+OrderStatusSerializer	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/serializers.py	/^class OrderStatusSerializer(ModelSerializer):$/;"	c
+OrderStatusSerializer	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from .serializers import OrderStatusSerializer$/;"	i
+OscarPaymentDetailsView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from oscar.apps.checkout.views import PaymentDetailsView as OscarPaymentDetailsView$/;"	i
+OverriddenCheckoutApplication	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/app.py	/^class OverriddenCheckoutApplication(CheckoutApplication):$/;"	c
+PAYMENT_EVENT_PURCHASE	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/__init__.py	/^PAYMENT_EVENT_PURCHASE = 'Purchase'$/;"	v
+PAYMENT_EVENT_PURCHASE	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from . import PAYMENT_METHOD_STRIPE, PAYMENT_EVENT_PURCHASE, STRIPE_EMAIL, STRIPE_TOKEN$/;"	i
+PAYMENT_METHOD_STRIPE	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/__init__.py	/^PAYMENT_METHOD_STRIPE = 'Stripe'$/;"	v
+PAYMENT_METHOD_STRIPE	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from . import PAYMENT_METHOD_STRIPE, PAYMENT_EVENT_PURCHASE, STRIPE_EMAIL, STRIPE_TOKEN$/;"	i
+PROMOTION_CLASSES	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^from forked_apps.promotions.conf import PROMOTION_CLASSES$/;"	i
+PROMOTION_CLASSES	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^from forked_apps.promotions.conf import PROMOTION_CLASSES$/;"	i
+PROMOTION_CLASSES	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from forked_apps.promotions.conf import PROMOTION_CLASSES$/;"	i
+PROMOTION_CLASSES	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/conf.py	/^PROMOTION_CLASSES = get_promotion_classes()$/;"	v
+PageDetailView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class PageDetailView(generic.TemplateView):$/;"	c
+PageListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class PageListView(generic.TemplateView):$/;"	c
+PaymentDetailsView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^class PaymentDetailsView(OscarPaymentDetailsView):$/;"	c
+PaymentDetailsView	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^class PaymentDetailsView(CorePaymentDetailsView):$/;"	c
+Product	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^Product = get_model('catalogue', 'Product')$/;"	v
+ProductSelect	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^ProductSelect = get_class('dashboard.catalogue.widgets', 'ProductSelect')$/;"	v
+PromotionMixin	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class PromotionMixin(object):$/;"	c
+PromotionTypeSelectForm	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^class PromotionTypeSelectForm(forms.Form):$/;"	c
+PromotionsConfig	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/config.py	/^class PromotionsConfig(config.PromotionsConfig):$/;"	c
+PromotionsDashboardApplication	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^class PromotionsDashboardApplication(DashboardApplication):$/;"	c
+PromotionsDashboardConfig	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/config.py	/^class PromotionsDashboardConfig(config.PromotionsDashboardConfig):$/;"	c
+Q	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^from django.db.models import Q$/;"	i
+ROOT_URLCONF	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^ROOT_URLCONF = 'frobshop.urls'$/;"	v
+ROOT_URLCONF	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^ROOT_URLCONF = 'frobshop.urls'$/;"	v
+ROUND_UP	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from decimal import ROUND_UP$/;"	i
+Repository	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^Repository = get_class('shipping.repository', 'Repository')$/;"	v
+Response	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from rest_framework.response import Response$/;"	i
+RestaurantOrders	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^class RestaurantOrders(generics.ListAPIView):$/;"	c
+SETT	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^from django.conf import settings as SETT$/;"	i
+SITE_ID	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^SITE_ID = 1$/;"	v
+SITE_ID	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^SITE_ID = 1$/;"	v
+STATICFILES_DIRS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_DIRS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_FINDERS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATICFILES_FINDERS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATIC_ROOT	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^STATIC_ROOT = ''$/;"	v
+STATIC_ROOT	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^STATIC_ROOT = ''$/;"	v
+STATIC_URL	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STRIPE_CURRENCY	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^STRIPE_CURRENCY = 'GBP'$/;"	v
+STRIPE_CURRENCY	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^STRIPE_CURRENCY = 'GBP'$/;"	v
+STRIPE_EMAIL	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/__init__.py	/^STRIPE_EMAIL = 'stripeEmail'$/;"	v
+STRIPE_EMAIL	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from . import PAYMENT_METHOD_STRIPE, PAYMENT_EVENT_PURCHASE, STRIPE_EMAIL, STRIPE_TOKEN$/;"	i
+STRIPE_PUBLISHABLE_KEY	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^STRIPE_PUBLISHABLE_KEY = 'pk_test_oQ2G2ZvDa4wjPxX28gw49ehs'$/;"	v
+STRIPE_PUBLISHABLE_KEY	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^STRIPE_PUBLISHABLE_KEY = 'pk_live_aWwmEE5XFym6pSxv69EwyM3V'$/;"	v
+STRIPE_SECRET_KEY	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^STRIPE_SECRET_KEY = 'sk_test_NGhtI5KEe4FzRyS1Y4ndsdLI'$/;"	v
+STRIPE_SECRET_KEY	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^STRIPE_SECRET_KEY = 'sk_live_3Esr9kwVfNNSHzjGsJfDyEra'$/;"	v
+STRIPE_TOKEN	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/__init__.py	/^STRIPE_TOKEN = 'stripeToken'$/;"	v
+STRIPE_TOKEN	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from . import PAYMENT_METHOD_STRIPE, PAYMENT_EVENT_PURCHASE, STRIPE_EMAIL, STRIPE_TOKEN$/;"	i
+ShippingMethodView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^class ShippingMethodView(updatedCheckoutMixin, generic.FormView):$/;"	c
+Source	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^Source = apps.get_model('payment', 'Source')$/;"	v
+Source	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^Source = apps.get_model('payment', 'Source')$/;"	v
+SourceType	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^SourceType = apps.get_model('payment', 'SourceType')$/;"	v
+StockAlert	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^StockAlert = get_model('partner', 'StockAlert')$/;"	v
+StripeTokenForm	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/forms.py	/^class StripeTokenForm(forms.Form):$/;"	c
+Sum	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from django.db.models import Avg, Count, Sum$/;"	i
+TEMPLATES	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^TEMPLATES = [$/;"	v
+THEME	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^from frobshop.theme import THEME$/;"	i
+THEME	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^from frobshop.theme import THEME$/;"	i
+THEME	/home/anoop/Works/Insta_venv/instaoscar/frobshop/theme.py	/^THEME='default'/;"	v
+THEME_CHOICES	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    THEME_CHOICES = ($/;"	v	class:AppearanceSettings
+TIME_ZONE	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^TIME_ZONE = 'Asia\/Kolkata'$/;"	v
+TIME_ZONE	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+Table	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/tables.py	/^from django_tables2 import Table$/;"	i
+TemplateView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from django.views.generic import TemplateView$/;"	i
+TestCase	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/tests.py	/^from django.test import TestCase$/;"	i
+TimePickerInput	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^from oscar.forms.widgets import TimePickerInput$/;"	i
+TimingCreateForm	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^class TimingCreateForm(forms.ModelForm):$/;"	c
+TimingCreateView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class TimingCreateView(generic.CreateView):$/;"	c
+TimingDeleteView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class TimingDeleteView(generic.DeleteView):$/;"	c
+TimingListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class TimingListView(generic.ListView):$/;"	c
+TimingManageView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^class TimingManageView(generic.UpdateView):$/;"	c
+TransactionDetailView	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^class TransactionDetailView(generic.DetailView):$/;"	c
+TransactionListView	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^class TransactionListView(generic.ListView):$/;"	c
+URLDoesNotExistValidator	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^from oscar.core.validators import URLDoesNotExistValidator$/;"	i
+URLDoesNotExistValidator	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from oscar.core.validators import URLDoesNotExistValidator$/;"	i
+USE_I18N	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^USE_L10N = True$/;"	v
+USE_LESS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^USE_LESS=False$/;"	v
+USE_LESS	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^USE_LESS=False$/;"	v
+USE_TZ	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^USE_TZ = True$/;"	v
+UnableToTakePayment	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^from oscar.apps.payment.exceptions import UnableToTakePayment, InvalidGatewayRequestError$/;"	i
+UpdateAutomaticProductListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateAutomaticProductListView(UpdateView):$/;"	c
+UpdateEventBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateEventBlockView(UpdateView):$/;"	c
+UpdateEventSliderBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateEventSliderBlockView(UpdateView):$/;"	c
+UpdateHandPickedProductListView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateHandPickedProductListView(UpdateView):$/;"	c
+UpdateImageBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateImageBlockView(UpdateView):$/;"	c
+UpdateImageView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateImageView(UpdateView):$/;"	c
+UpdateMapBlockView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateMapBlockView(UpdateView):$/;"	c
+UpdateMultiImageView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateMultiImageView(UpdateView):$/;"	c
+UpdateRawHTMLView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateRawHTMLView(UpdateView):$/;"	c
+UpdateSingleProductView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateSingleProductView(UpdateView):$/;"	c
+UpdateView	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^class UpdateView(PromotionMixin, generic.UpdateView):$/;"	c
+User	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/models.py	/^from django.contrib.auth.models import User$/;"	i
+User	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.contrib.auth.models import User$/;"	i
+User	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^User = get_user_model()$/;"	v
+ValidationError	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.core.exceptions import ValidationError$/;"	i
+Voucher	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^Voucher = get_model('voucher', 'Voucher')$/;"	v
+WSGI_APPLICATION	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^WSGI_APPLICATION = 'frobshop.wsgi.application'$/;"	v
+WSGI_APPLICATION	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^WSGI_APPLICATION = 'frobshop.wsgi.application'$/;"	v
+ZERO_DECIMAL_CURRENCIES	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^ZERO_DECIMAL_CURRENCIES = ($/;"	v
+_	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/config.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/config.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/config.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+_	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+__all__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/models.py	/^__all__ = []$/;"	v
+__init__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:TimingCreateForm
+__init__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^    def __init__(self, label, url_name=None, url_args=None, url_kwargs=None,$/;"	m	class:Node
+__init__	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^    def __init__(self):$/;"	m	class:Facade
+__str__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    def __str__(self):$/;"	m	class:AppearanceSettings	file:
+__str__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    def __str__(self):$/;"	m	class:DayTimings	file:
+__str__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    def __str__(self):$/;"	m	class:LocationSettings	file:
+__str__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    def __str__(self):$/;"	m	class:EventBlock	file:
+__str__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    def __str__(self):$/;"	m	class:EventSliderBlock	file:
+__str__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    def __str__(self):$/;"	m	class:ImageBlock	file:
+__str__	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    def __str__(self):$/;"	m	class:MapBlock	file:
+__unicode__	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/models.py	/^    def __unicode__(self):$/;"	m	class:AppUser	file:
+_save_page_order	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def _save_page_order(self, data):$/;"	m	class:PageDetailView
+_type	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    _type = "Image Text Block"$/;"	v	class:ImageBlock
+abstract	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        abstract = True$/;"	v	class:AppearanceSettings.Meta
+abstract	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        abstract = True$/;"	v	class:DayTimings.Meta
+abstract	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        abstract = True$/;"	v	class:LocationSettings.Meta
+actions	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    actions = ('add_to_page', 'remove_from_page')$/;"	v	class:UpdateView
+add_child	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^    def add_child(self, node):$/;"	m	class:Node
+add_to_page	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def add_to_page(self, promotion, request, *args, **kwargs):$/;"	m	class:UpdateView
+address	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    address = models.TextField(_("Address"), max_length=256, blank=True, null=True)$/;"	v	class:MapBlock
+admin	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/admin.py	/^from django.contrib import admin$/;"	i
+admin	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/admin.py	/^from django.contrib import admin$/;"	i
+admin	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^from django.contrib import admin$/;"	i
+alignment	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    alignment = models.CharField(_("Alignment"),max_length=128,$/;"	v	class:ImageBlock
+api	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^from oscarapi.app import application as api$/;"	i
+api_key	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    api_key="AIzaSyCanc2hogpZs-B3rbdRGk0jVwGt3jYx6MU")$/;"	v
+api_view	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from rest_framework.decorators import api_view$/;"	i
+app_label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        app_label = 'appearance'$/;"	v	class:AppearanceSettings.Meta
+app_label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        app_label = 'appearance'$/;"	v	class:DayTimings.Meta
+app_label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        app_label = 'appearance'$/;"	v	class:LocationSettings.Meta
+app_label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        app_label = 'promotions'$/;"	v	class:EventBlock.Meta
+app_label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        app_label = 'promotions'$/;"	v	class:EventSliderBlock.Meta
+app_label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        app_label = 'promotions'$/;"	v	class:ImageBlock.Meta
+app_label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        app_label = 'promotions'$/;"	v	class:MapBlock.Meta
+appearance_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    appearance_app = get_class('forked_apps.dashboard.appearance.app','application')$/;"	v	class:DashboardApplication
+application	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/app.py	/^application = OverriddenCheckoutApplication()$/;"	v
+application	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^application = DashboardApplication()$/;"	v
+application	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^application = AppearanceApplication()$/;"	v
+application	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^application = PromotionsDashboardApplication()$/;"	v
+application	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^from oscar.app import application$/;"	i
+application	/home/anoop/Works/Insta_venv/instaoscar/frobshop/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^application = ExpressDashboardApplication()$/;"	v
+apps	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^from django.apps import apps$/;"	i
+apps	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from django.apps import apps$/;"	i
+attrs	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/tables.py	/^        attrs = {'class': 'table table-striped table-bordered'}$/;"	v	class:DashboardTable.Meta
+auth_views	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^from django.contrib.auth import views as auth_views$/;"	i
+authenticate	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.contrib.auth import authenticate$/;"	i
+auto_created	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^                                                                   auto_created=True,$/;"	v	class:Migration
+bases	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            bases=('promotions.handpickedproductlist',),$/;"	v	class:Migration
+bases	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            bases=(models.Model,),$/;"	v	class:Migration
+basketItem	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^basketItem = get_model('basket', 'Line')$/;"	v
+caption	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/tables.py	/^    caption = ungettext_lazy('%d Row', '%d Rows')$/;"	v	class:DashboardTable
+capture	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^    def capture(self, order_number, **kwargs):$/;"	m	class:Facade
+catalogue_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    catalogue_app = get_class('dashboard.catalogue.app', 'application')$/;"	v	class:DashboardApplication
+charge	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^    def charge(self,$/;"	m	class:Facade
+check_location_is_in_deliverable_locations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^    def check_location_is_in_deliverable_locations(self, request):$/;"	m	class:updatedCheckoutMixin
+check_minimum_amount	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^    def check_minimum_amount(self,request):$/;"	m	class:updatedCheckoutMixin
+check_permissions	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^from oscar.views.decorators import check_permissions$/;"	i
+check_working_time	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^    def check_working_time(self, request):$/;"	m	class:updatedCheckoutMixin
+choices	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^    choices = []$/;"	v	class:PromotionTypeSelectForm
+choices	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^                                    choices=ALIGNMENT_CHOICES)$/;"	v	class:ImageBlock
+comms_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    comms_app = get_class('dashboard.communications.app', 'application')$/;"	v	class:DashboardApplication
+config	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/config.py	/^from oscar.apps.dashboard.promotions import config$/;"	i
+config	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/config.py	/^from oscar.apps.promotions import config$/;"	i
+context_object_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    context_object_name = 'days'$/;"	v	class:TimingListView
+context_object_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    context_object_name = 'location'$/;"	v	class:LocationDeleteView
+context_object_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    context_object_name = 'location'$/;"	v	class:LocationListView
+context_object_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    context_object_name = 'timing'$/;"	v	class:TimingDeleteView
+context_object_name	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^    context_object_name = 'transactions'$/;"	v	class:TransactionListView
+context_object_name	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^    context_object_name = 'txn'$/;"	v	class:TransactionDetailView
+create_menu	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/menu.py	/^def create_menu(menu_items, parent=None):$/;"	f
+create_redirect_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    create_redirect_view = get_class('dashboard.promotions.views',$/;"	v	class:PromotionsDashboardApplication
+create_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    create_view = get_class('forked_apps.dashboard.appearance.views', 'TimingCreateView')$/;"	v	class:AppearanceApplication
+csrf	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.template.context_processors import csrf$/;"	i
+csrf_exempt	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.views.decorators.csrf import csrf_exempt$/;"	i
+csrf_exempt	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from django.views.decorators.csrf import csrf_exempt$/;"	i
+date_created	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    date_created = models.DateTimeField($/;"	v	class:AppearanceSettings
+datetime	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^import datetime$/;"	i
+day	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    day = models.CharField(_('Day'),$/;"	v	class:DayTimings
+db	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+default_access_fn	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^def default_access_fn(user, url_name, url_args=None, url_kwargs=None):$/;"	f
+default_app_config	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/__init__.py	/^default_app_config = 'forked_apps.appearance.config.AppearanceConfig'$/;"	v
+default_app_config	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/__init__.py	/^default_app_config = 'oscar.apps.dashboard.config.DashboardConfig'$/;"	v
+default_app_config	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/__init__.py	/^default_app_config = 'forked_apps.dashboard.appearance.config.AppearanceDashboardConfig'$/;"	v
+default_app_config	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/__init__.py	/^default_app_config = 'forked_apps.dashboard.promotions.config.PromotionsDashboardConfig'$/;"	v
+default_app_config	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/__init__.py	/^default_app_config = 'forked_apps.promotions.config.PromotionsConfig'$/;"	v
+default_permissions	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        default_permissions = ()$/;"	v	class:LocationSettings.Meta
+default_permissions	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    default_permissions = ['is_staff', ]$/;"	v	class:AppearanceApplication
+default_permissions	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    default_permissions = ['is_staff', ]$/;"	v	class:PromotionsDashboardApplication
+delete_page_promotion_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    delete_page_promotion_view = get_class('dashboard.promotions.views',$/;"	v	class:PromotionsDashboardApplication
+delete_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    delete_view = get_class('forked_apps.dashboard.appearance.views', 'TimingDeleteView')$/;"	v	class:AppearanceApplication
+deletion	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+dependencies	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^    dependencies = [$/;"	v	class:Migration
+description	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    description = models.TextField(_("Event Description"), $/;"	v	class:EventBlock
+description	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    description = models.TextField(_('Description'),blank=True)$/;"	v	class:ImageBlock
+detail_view	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^    detail_view = views.TransactionDetailView$/;"	v	class:ExpressDashboardApplication
+dispatch	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^    def dispatch(self, request, *args, **kwargs):$/;"	m	class:PaymentDetailsView
+django	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+django	/home/anoop/Works/Insta_venv/instaoscar/manage.py	/^            import django$/;"	i
+document_root	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^                             document_root=settings.MEDIA_ROOT)$/;"	v
+email	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    email = models.CharField(_("Email Address"), max_length=64, blank=True, null=True)$/;"	v	class:MapBlock
+end_date	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    end_date = models.DateField($/;"	v	class:EventBlock
+event_date	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    event_date = models.DateField(blank=True, null=True)$/;"	v	class:EventBlock
+events	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    events = models.ManyToManyField($/;"	v	class:EventSliderBlock
+execute_from_command_line	/home/anoop/Works/Insta_venv/instaoscar/manage.py	/^        from django.core.management import execute_from_command_line$/;"	i
+field	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            field=models.ForeignKey(verbose_name='List', to='promotions.HandPickedProductList', on_delete=models.CASCADE),$/;"	v	class:Migration
+field	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            field=models.ForeignKey(verbose_name='Product', to='catalogue.Product', on_delete=models.CASCADE),$/;"	v	class:Migration
+field	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            field=models.ForeignKey(verbose_name='Tabbed Block', related_name='tabs', to='promotions.TabbedBlock', on_delete=models.CASCADE),$/;"	v	class:Migration
+field	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            field=models.ManyToManyField(through='promotions.OrderedProduct', blank=True, verbose_name='Products', to='catalogue.Product', null=True),$/;"	v	class:Migration
+field	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^            field=models.ManyToManyField(help_text='Choose the Image content blocks that this block will use. (You may need to create some first).', to='promotions.Image', blank=True),$/;"	v	class:Migration
+field	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^            field=models.ManyToManyField(to='catalogue.Product', verbose_name='Products', through='promotions.OrderedProduct', blank=True),$/;"	v	class:Migration
+fields	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/serializers.py	/^        fields = [$/;"	v	class:OrderStatusSerializer.Meta
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^        fields = '__all__'$/;"	v	class:AppearanceForm.Meta
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^        fields = '__all__'$/;"	v	class:DayTimingsForm.Meta
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^            fields=[$/;"	v	class:Migration
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^        fields = '__all__'$/;"	v	class:AppearanceUpdateForm.Meta
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^        fields = '__all__'$/;"	v	class:TimingCreateForm.Meta
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    fields = '__all__'$/;"	v	class:LocationCreateView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    fields = '__all__'$/;"	v	class:LocationManageView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^        fields = [$/;"	v	class:EventDataForm.Meta
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = [$/;"	v	class:CreateEventSliderBlockView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = [$/;"	v	class:CreateMapBlockView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = [$/;"	v	class:UpdateEventSliderBlockView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = [$/;"	v	class:UpdateMapBlockView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = ['name', 'description', 'link_url', 'link_text', 'method',$/;"	v	class:CreateAutomaticProductListView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = ['name', 'description', 'link_url', 'link_text', 'method',$/;"	v	class:UpdateAutomaticProductListView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = ['name', 'images']$/;"	v	class:UpdateMultiImageView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = ['name', 'link_url', 'image']$/;"	v	class:CreateImageView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = ['name', 'link_url', 'image']$/;"	v	class:UpdateImageView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = ['name','image','heading',$/;"	v	class:CreateImageBlockView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = ['name','image','heading',$/;"	v	class:UpdateImageBlockView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    fields = ['name']$/;"	v	class:CreateMultiImageView
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^import oscar.models.fields$/;"	i
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^            fields=[$/;"	v	class:Migration
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^            fields=[$/;"	v	class:Migration
+fields	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^            fields=[$/;"	v	class:Migration
+filter	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^    def filter(self, user):$/;"	m	class:Node
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    form_class = GatewayForm$/;"	v	class:IndexView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    form_class = ShippingMethodForm$/;"	v	class:ShippingMethodView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    form_class = forms.AppearanceUpdateForm$/;"	v	class:AppearanceView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    form_class = forms.TimingCreateForm$/;"	v	class:TimingCreateView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    form_class = forms.TimingCreateForm$/;"	v	class:TimingManageView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    form_class = EventDataForm$/;"	v	class:CreateEventBlockView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    form_class = EventDataForm$/;"	v	class:UpdateEventBlockView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    form_class = HandPickedProductListForm$/;"	v	class:CreateHandPickedProductListView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    form_class = HandPickedProductListForm$/;"	v	class:UpdateHandPickedProductListView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    form_class = RawHTMLForm$/;"	v	class:CreateRawHTMLView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    form_class = RawHTMLForm$/;"	v	class:UpdateRawHTMLView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    form_class = SingleProductForm$/;"	v	class:CreateSingleProductView
+form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    form_class = SingleProductForm$/;"	v	class:UpdateSingleProductView
+form_invalid	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def form_invalid(self, form):$/;"	m	class:ShippingMethodView
+form_valid	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def form_valid(self, form):$/;"	m	class:IndexView
+form_valid	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def form_valid(self, form):$/;"	m	class:ShippingMethodView
+form_valid	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def form_valid(self, form):$/;"	m	class:CreateHandPickedProductListView
+form_valid	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def form_valid(self, form):$/;"	m	class:UpdateHandPickedProductListView
+forms	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^from django import forms$/;"	i
+forms	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^from django import forms$/;"	i
+forms	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from forked_apps.dashboard.appearance import forms$/;"	i
+forms	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^from django import forms$/;"	i
+forms	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/forms.py	/^from django import forms$/;"	i
+forms	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from . import forms$/;"	i
+full_attr_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^            full_attr_name = attr_name % klass.classname()$/;"	v	class:PromotionsDashboardApplication
+full_view_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^            full_view_name = view_name % klass.__name__$/;"	v	class:PromotionsDashboardApplication
+fullday	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    fullday = models.BooleanField(default=False)$/;"	v	class:DayTimings
+generic	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from django.views import generic$/;"	i
+generic	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.views import generic$/;"	i
+generic	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.views import generic$/;"	i
+generic	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^from django.views import generic$/;"	i
+generics	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from rest_framework import generics$/;"	i
+get	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    def get(self, request, format=None):$/;"	m	class:GetOrderDetails
+get	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def get(self, request, *args, **kwargs):$/;"	m	class:IndexView
+get	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def get(self, request, *args, **kwargs):$/;"	m	class:ShippingMethodView
+get_active_site_offers	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^    def get_active_site_offers(self):$/;"	m	class:IndexView
+get_active_vouchers	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^    def get_active_vouchers(self):$/;"	m	class:IndexView
+get_available_shipping_methods	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def get_available_shipping_methods(self):$/;"	m	class:ShippingMethodView
+get_caption_display	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/tables.py	/^    def get_caption_display(self):$/;"	m	class:DashboardTable
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^from oscar.core.loading import  get_model,get_class$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from oscar.core.loading import get_class, get_classes, get_model$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^from oscar.core.loading import get_class$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^from oscar.core.loading import get_class$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from oscar.core.loading import get_model, get_class$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/menu.py	/^from oscar.core.loading import get_class$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^from oscar.core.loading import AppNotFoundError, get_class$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^from oscar.core.loading import get_class$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^from oscar.core.loading import get_class, get_classes$/;"	i
+get_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/conf.py	/^from oscar.core.loading import get_class$/;"	i
+get_classes	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from oscar.core.loading import get_class, get_classes, get_model$/;"	i
+get_classes	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^from oscar.core.loading import get_class, get_classes$/;"	i
+get_classes	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from oscar.core.loading import get_classes$/;"	i
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:ShippingMethodView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:LocationCreateView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:TimingCreateView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_context_data(self):$/;"	m	class:ListView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:CreateHandPickedProductListView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:UpdateHandPickedProductListView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_context_data(self, *args, **kwargs):$/;"	m	class:CreateView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_context_data(self, *args, **kwargs):$/;"	m	class:PageDetailView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_context_data(self, *args, **kwargs):$/;"	m	class:PageListView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_context_data(self, *args, **kwargs):$/;"	m	class:UpdateView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:IndexView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:TransactionDetailView
+get_context_data	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:PaymentDetailsView
+get_core_apps	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^from oscar import get_core_apps$/;"	i
+get_core_apps	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^from oscar import get_core_apps$/;"	i
+get_form_kwargs	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def get_form_kwargs(self):$/;"	m	class:IndexView
+get_form_kwargs	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def get_form_kwargs(self):$/;"	m	class:ShippingMethodView
+get_friendly_decline_message	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^    def get_friendly_decline_message(error):$/;"	m	class:Facade
+get_friendly_error_message	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^    def get_friendly_error_message(error):$/;"	m	class:Facade
+get_heading	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_heading(self):$/;"	m	class:CreateView
+get_hourly_report	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^    def get_hourly_report(self, hours=24, segments=10):$/;"	m	class:IndexView
+get_model	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/serializers.py	/^from oscar.core.loading import get_model$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from oscar.core.loading import get_model$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/admin.py	/^from oscar.core.loading import get_model$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/context_processor.py	/^from oscar.core.loading import get_model$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^from oscar.core.loading import get_model$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^from oscar.core.loading import  get_model,get_class$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from oscar.core.loading import get_class, get_classes, get_model$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^from oscar.core.loading import get_model$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from oscar.core.loading import get_model, get_class$/;"	i
+get_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from oscar.core.loading import get_model$/;"	i
+get_nodes	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/menu.py	/^def get_nodes(user):$/;"	f
+get_number_of_promotions	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^    def get_number_of_promotions(self, abstract_base=AbstractPromotion):$/;"	m	class:IndexView
+get_object	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    def get_object(self, queryset=None):$/;"	m	class:AppearanceView
+get_open_baskets	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^    def get_open_baskets(self, filters=None):$/;"	m	class:IndexView
+get_positions_context_data	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_positions_context_data(self, path):$/;"	m	class:PageDetailView
+get_promotion_classes	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/conf.py	/^def get_promotion_classes():$/;"	f
+get_queryset	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    def get_queryset(self):$/;"	m	class:OrderList
+get_queryset	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    def get_queryset(self, *args, **kwargs):$/;"	m	class:RestaurantOrders
+get_redirect_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_redirect_url(self, **kwargs):$/;"	m	class:CreateRedirectView
+get_stats	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^    def get_stats(self):$/;"	m	class:IndexView
+get_success_response	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def get_success_response(self):$/;"	m	class:IndexView
+get_success_response	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def get_success_response(self):$/;"	m	class:ShippingMethodView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    def get_success_url(self):$/;"	m	class:AppearanceView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    def get_success_url(self):$/;"	m	class:LocationCreateView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    def get_success_url(self):$/;"	m	class:LocationDeleteView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    def get_success_url(self):$/;"	m	class:TimingCreateView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    def get_success_url(self):$/;"	m	class:TimingDeleteView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_success_url(self):$/;"	m	class:CreateView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_success_url(self):$/;"	m	class:DeletePagePromotionView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_success_url(self):$/;"	m	class:DeleteView
+get_success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_success_url(self):$/;"	m	class:UpdateView
+get_template_names	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def get_template_names(self):$/;"	m	class:PromotionMixin
+get_template_names	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^    def get_template_names(self):$/;"	m	class:IndexView
+get_theme	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/context_processor.py	/^def get_theme(request):$/;"	f
+get_url_decorator	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^    def get_url_decorator(self, url_name):$/;"	m	class:ExpressDashboardApplication
+get_urls	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    def get_urls(self):$/;"	m	class:DashboardApplication
+get_urls	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    def get_urls(self):$/;"	m	class:AppearanceApplication
+get_urls	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    def get_urls(self):$/;"	m	class:PromotionsDashboardApplication
+get_urls	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^    def get_urls(self):$/;"	m	class:ExpressDashboardApplication
+get_user_model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from oscar.core.compat import get_user_model$/;"	i
+get_wsgi_application	/home/anoop/Works/Insta_venv/instaoscar/frobshop/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+handle_payment	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^    def handle_payment(self, order_number, total, **kwargs):$/;"	m	class:PaymentDetailsView
+has_children	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^    def has_children(self):$/;"	m	class:Node
+hashlib	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^import hashlib$/;"	i
+heading	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    heading = models.CharField(_("Heading"), max_length=64, blank=True, null=True)$/;"	v	class:MapBlock
+heading	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    heading = models.TextField(_('Heading'),blank=True)$/;"	v	class:ImageBlock
+help_text	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        help_text=_("list of event, you create some events first")$/;"	v	class:EventSliderBlock
+holiday	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    holiday = models.BooleanField(default=False)$/;"	v	class:DayTimings
+image	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    image = models.ImageField($/;"	v	class:AppearanceSettings
+image	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    image = models.ImageField($/;"	v	class:EventBlock
+image	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    image = models.ImageField($/;"	v	class:ImageBlock
+import_string	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/menu.py	/^from django.utils.module_loading import import_string$/;"	i
+include	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^from django.conf.urls import include, url$/;"	i
+index_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    index_view = get_class('dashboard.views', 'IndexView')$/;"	v	class:DashboardApplication
+initial	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+inlineformset_factory	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^from django.forms.models import inlineformset_factory$/;"	i
+is_heading	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^    def is_heading(self):$/;"	m	class:Node
+is_model_registered	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/models.py	/^from oscar.core.loading import is_model_registered$/;"	i
+is_visible	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^    def is_visible(self, user):$/;"	m	class:Node
+itertools	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^import itertools$/;"	i
+label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/config.py	/^    label = 'appearance'$/;"	v	class:AppearanceConfig
+label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/config.py	/^    label = 'appearance_dashboard'$/;"	v	class:AppearanceDashboardConfig
+label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/config.py	/^    label = 'dashboard'$/;"	v	class:DashboardConfig
+label	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^                                       label=_("Promotion type"))$/;"	v	class:PromotionTypeSelectForm
+lat	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    lat = models.CharField(max_length=100, blank=True,null=True)$/;"	v	class:LocationSettings
+lattitude	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    lattitude = models.CharField(_("Latitude"), max_length=64)$/;"	v	class:MapBlock
+link_form_class	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    link_form_class = PagePromotionForm$/;"	v	class:UpdateView
+list_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    list_view = get_class('forked_apps.dashboard.appearance.views', 'TimingListView')$/;"	v	class:AppearanceApplication
+list_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    list_view = get_class('dashboard.promotions.views',$/;"	v	class:PromotionsDashboardApplication
+list_view	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^    list_view = views.TransactionListView$/;"	v	class:ExpressDashboardApplication
+location	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^location = lambda x: os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', x)$/;"	v
+location	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^location = lambda x: os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', x)$/;"	v
+location_create_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    location_create_view = get_class('forked_apps.dashboard.appearance.views', 'LocationCreateView')$/;"	v	class:AppearanceApplication
+location_delete_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    location_delete_view = get_class('forked_apps.dashboard.appearance.views', 'LocationDeleteView')$/;"	v	class:AppearanceApplication
+location_list_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    location_list_view = get_class('forked_apps.dashboard.appearance.views', 'LocationListView')$/;"	v	class:AppearanceApplication
+location_update_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    location_update_view = get_class('forked_apps.dashboard.appearance.views', 'LocationManageView')$/;"	v	class:AppearanceApplication
+logger	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^logger = logging.getLogger(__name__)$/;"	v
+logging	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^import logging$/;"	i
+login	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^def login(request):$/;"	f
+login	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from django.contrib.auth import login$/;"	i
+lon	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    lon = models.CharField(max_length=100, blank=True,null=True)$/;"	v	class:LocationSettings
+longitude	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    longitude = models.CharField(_("Longitude"), max_length=64)$/;"	v	class:MapBlock
+lookup_field	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    lookup_field = 'number'$/;"	v	class:ChangeOrderStatusView
+max_length	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        max_length=255)$/;"	v	class:AppearanceSettings
+max_length	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^            max_length=255)$/;"	v	class:EventBlock
+max_length	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^            max_length=255)$/;"	v	class:ImageBlock
+messages	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.contrib import messages$/;"	i
+messages	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.contrib import messages$/;"	i
+messages	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.contrib import messages$/;"	i
+method_decorator	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from django.utils.decorators import method_decorator$/;"	i
+migrations	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+migrations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+migrations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^from django.db import migrations, models$/;"	i
+migrations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^from django.db import models, migrations$/;"	i
+migrations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^from django.db import models, migrations$/;"	i
+migrations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^from django.db import migrations, models$/;"	i
+migrations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^from django.db import migrations, models$/;"	i
+migrations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^from django.db import migrations, models$/;"	i
+model	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/serializers.py	/^        model = Order$/;"	v	class:OrderStatusSerializer.Meta
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^        model = AppearanceSettings$/;"	v	class:AppearanceForm.Meta
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/forms.py	/^        model = DayTimings$/;"	v	class:DayTimingsForm.Meta
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^        model = AppearanceSettings$/;"	v	class:AppearanceUpdateForm.Meta
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^        model = DayTimings$/;"	v	class:TimingCreateForm.Meta
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = AppearanceSettings$/;"	v	class:AppearanceView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = DayTimings$/;"	v	class:TimingCreateView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = DayTimings$/;"	v	class:TimingDeleteView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = DayTimings$/;"	v	class:TimingListView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = DayTimings$/;"	v	class:TimingManageView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = LocationSettings$/;"	v	class:LocationCreateView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = LocationSettings$/;"	v	class:LocationDeleteView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = LocationSettings$/;"	v	class:LocationListView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    model = LocationSettings$/;"	v	class:LocationManageView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^        model = EventBlock$/;"	v	class:EventDataForm.Meta
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = AutomaticProductList$/;"	v	class:CreateAutomaticProductListView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = AutomaticProductList$/;"	v	class:DeleteAutomaticProductListView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = AutomaticProductList$/;"	v	class:UpdateAutomaticProductListView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = EventBlock$/;"	v	class:CreateEventBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = EventBlock$/;"	v	class:DeleteEventBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = EventBlock$/;"	v	class:UpdateEventBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = EventSliderBlock$/;"	v	class:CreateEventSliderBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = EventSliderBlock$/;"	v	class:DeleteEventSliderBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = EventSliderBlock$/;"	v	class:UpdateEventSliderBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = HandPickedProductList$/;"	v	class:CreateHandPickedProductListView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = HandPickedProductList$/;"	v	class:DeleteHandPickedProductListView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = HandPickedProductList$/;"	v	class:UpdateHandPickedProductListView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = Image$/;"	v	class:CreateImageView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = Image$/;"	v	class:DeleteImageView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = Image$/;"	v	class:UpdateImageView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = ImageBlock$/;"	v	class:CreateImageBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = ImageBlock$/;"	v	class:DeleteImageBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = ImageBlock$/;"	v	class:UpdateImageBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = MapBlock$/;"	v	class:CreateMapBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = MapBlock$/;"	v	class:DeleteMapBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = MapBlock$/;"	v	class:UpdateMapBlockView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = MultiImage$/;"	v	class:CreateMultiImageView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = MultiImage$/;"	v	class:DeleteMultiImageView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = MultiImage$/;"	v	class:UpdateMultiImageView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = PagePromotion$/;"	v	class:DeletePagePromotionView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = RawHTML$/;"	v	class:CreateRawHTMLView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = RawHTML$/;"	v	class:DeleteRawHTMLView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = RawHTML$/;"	v	class:UpdateRawHTMLView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = SingleProduct$/;"	v	class:CreateSingleProductView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = SingleProduct$/;"	v	class:DeleteSingleProductView
+model	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    model = SingleProduct$/;"	v	class:UpdateSingleProductView
+model	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^    model = models.ExpressTransaction$/;"	v	class:TransactionDetailView
+model	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^    model = models.ExpressTransaction$/;"	v	class:TransactionListView
+model_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            model_name='handpickedproductlist',$/;"	v	class:Migration
+model_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            model_name='orderedproduct',$/;"	v	class:Migration
+model_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            model_name='orderedproductlist',$/;"	v	class:Migration
+model_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^            model_name='handpickedproductlist',$/;"	v	class:Migration
+model_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^            model_name='multiimage',$/;"	v	class:Migration
+models	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/models.py	/^from django.db import models$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^from django.db import models$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^from django.db import models, migrations$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^import oscar.models.fields$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^from django.db import models, migrations$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^from paypal.express import models$/;"	i
+name	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/apps.py	/^    name = 'AdminAPI'$/;"	v	class:AdminapiConfig
+name	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^            name='AppUser',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/config.py	/^    name = 'forked_apps.appearance'$/;"	v	class:AppearanceConfig
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^            name='AppearanceSettings',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^            name='DayTimings',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^            name='LocationSettings',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    name = 'dashboard'$/;"	v	class:DashboardApplication
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    name = None$/;"	v	class:AppearanceApplication
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/config.py	/^    name = 'forked_apps.dashboard.appearance'$/;"	v	class:AppearanceDashboardConfig
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/config.py	/^    name = 'oscar.apps.dashboard'$/;"	v	class:DashboardConfig
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    name = None$/;"	v	class:PromotionsDashboardApplication
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/config.py	/^    name = 'forked_apps.dashboard.promotions'$/;"	v	class:PromotionsDashboardConfig
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/config.py	/^    name = 'forked_apps.promotions'$/;"	v	class:PromotionsConfig
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='AutomaticProductList',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='HandPickedProductList',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='Image',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='KeywordPromotion',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='MultiImage',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='OrderedProduct',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='OrderedProductList',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='PagePromotion',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='RawHTML',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='SingleProduct',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='TabbedBlock',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='list',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='orderedproduct',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='product',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='products',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            name='tabbed_block',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^            name='images',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^            name='products',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^            name='ImageBlock',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^            name='MapBlock',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^            name='EventBlock',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^            name='EventSliderBlock',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^            name='mapblock',$/;"	v	class:Migration
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    name = models.CharField(_("Event Name"), max_length=64)$/;"	v	class:EventBlock
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    name = models.CharField(_("Event Name"), max_length=64)$/;"	v	class:EventSliderBlock
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    name = models.CharField(_("Name"), max_length=64)$/;"	v	class:MapBlock
+name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    name = models.CharField(_("Name"),max_length=128)$/;"	v	class:ImageBlock
+name	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^    name = None$/;"	v	class:ExpressDashboardApplication
+noqa	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/models.py	/^from .abstract_models import *  # noqa$/;"	i
+noqa	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/admin.py	/^from oscar.apps.promotions.admin import *  # noqa$/;"	i
+noqa	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^from oscar.apps.promotions.models import *  # noqa$/;"	i
+notify_order_placed	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^def notify_order_placed(sender, order, user, **kwargs):$/;"	f
+now	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from django.utils.timezone import now$/;"	i
+offers_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    offers_app = get_class('dashboard.offers.app', 'application')$/;"	v	class:DashboardApplication
+on_delete	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^                                                                   on_delete=models.CASCADE)),$/;"	v	class:Migration
+operations	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^    operations = [$/;"	v	class:Migration
+operations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^    operations = [$/;"	v	class:Migration
+operations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^    operations = [$/;"	v	class:Migration
+operations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^    operations = [$/;"	v	class:Migration
+operations	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^    operations = [$/;"	v	class:Migration
+options	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+options	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^            options={$/;"	v	class:Migration
+options	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+options	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^            options={$/;"	v	class:Migration
+options	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^            options={$/;"	v	class:Migration
+options	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^            options={$/;"	v	class:Migration
+options	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^            options={'verbose_name': 'Map & Address block', 'verbose_name_plural': 'Map Location'},$/;"	v	class:Migration
+order_placed	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from oscar.apps.order.signals import order_placed$/;"	i
+order_placed	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^order_placed = get_class('order.signals', 'order_placed')$/;"	v
+ordering	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        ordering = ('date_created', )$/;"	v	class:AppearanceSettings.Meta
+orders_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    orders_app = get_class('dashboard.orders.app', 'application')$/;"	v	class:DashboardApplication
+os	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^import os$/;"	i
+os	/home/anoop/Works/Insta_venv/instaoscar/frobshop/local_settings.py	/^import os$/;"	i
+os	/home/anoop/Works/Insta_venv/instaoscar/frobshop/settings.py	/^import os$/;"	i
+os	/home/anoop/Works/Insta_venv/instaoscar/frobshop/wsgi.py	/^import os$/;"	i
+os	/home/anoop/Works/Insta_venv/instaoscar/manage.py	/^import os$/;"	i
+oscar	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^import oscar.models.fields$/;"	i
+page_detail	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    page_detail = get_class('dashboard.promotions.views',$/;"	v	class:PromotionsDashboardApplication
+page_list	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    page_list = get_class('dashboard.promotions.views',$/;"	v	class:PromotionsDashboardApplication
+page_size	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    page_size = 10$/;"	v	class:OrderPageNumberClass
+pages_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    pages_app = get_class('dashboard.pages.app', 'application')$/;"	v	class:DashboardApplication
+pagination_class	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    pagination_class = OrderPageNumberClass$/;"	v	class:RestaurantOrders
+partners_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    partners_app = get_class('dashboard.partners.app', 'application')$/;"	v	class:DashboardApplication
+patterns	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^from django.conf.urls import patterns, url$/;"	i
+payment_description	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^    def payment_description(self, order_number, total, **kwargs):$/;"	m	class:PaymentDetailsView
+payment_details_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/app.py	/^    payment_details_view = views.PaymentDetailsView$/;"	v	class:OverriddenCheckoutApplication
+payment_metadata	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^    def payment_metadata(self, order_number, total, **kwargs):$/;"	m	class:PaymentDetailsView
+permanent	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    permanent = True$/;"	v	class:CreateRedirectView
+permissions_map	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    permissions_map = {$/;"	v	class:DashboardApplication
+pgettext_lazy	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^from django.utils.translation import pgettext_lazy$/;"	i
+pgettext_lazy	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^from django.utils.translation import pgettext_lazy$/;"	i
+phone_number	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    phone_number = models.CharField(_("Contact Number"), max_length=32, blank=True, null=True)$/;"	v	class:MapBlock
+post	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    def post(self, request, *args, **kwargs):$/;"	m	class:ShippingMethodView
+post	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def post(self, request, **kwargs):$/;"	m	class:PageDetailView
+post	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def post(self, request, *args, **kwargs):$/;"	m	class:UpdateView
+post_save	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.db.models.signals import post_save$/;"	i
+pre_conditions	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    pre_conditions = [$/;"	v	class:IndexView
+pre_conditions	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    pre_conditions = ['check_basket_is_not_empty',$/;"	v	class:ShippingMethodView
+preserve_default	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            preserve_default=True,$/;"	v	class:Migration
+prices	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^from oscar.core import prices$/;"	i
+primary_key	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^                                                                   primary_key=True,$/;"	v	class:Migration
+promotion_type	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^    promotion_type = forms.ChoiceField(choices=tuple(choices),$/;"	v	class:PromotionTypeSelectForm
+promotions_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    promotions_app = get_class('dashboard.promotions.app', 'application')$/;"	v	class:DashboardApplication
+proxy_dict	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^proxy_dict = {$/;"	v
+python_2_unicode_compatible	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^from django.utils.encoding import python_2_unicode_compatible$/;"	i
+queryset	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    queryset = Order.objects.all()$/;"	v	class:ChangeOrderStatusView
+random	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^import random$/;"	i
+ranges_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    ranges_app = get_class('dashboard.ranges.app', 'application')$/;"	v	class:DashboardApplication
+re	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^import re$/;"	i
+receiver	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.dispatch import receiver$/;"	i
+redirect	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from django.shortcuts import redirect$/;"	i
+reg_id	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/models.py	/^    reg_id = models.CharField(max_length=256, blank=True, null=True)$/;"	v	class:AppUser
+registrationid	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^def registrationid(request):$/;"	f
+remove_from_page	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    def remove_from_page(self, promotion, request, *args, **kwargs):$/;"	m	class:UpdateView
+render	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.shortcuts import render$/;"	i
+render_preview	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^    def render_preview(self, request, **kwargs):$/;"	m	class:PaymentDetailsView
+render_to_string	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.template.loader import render_to_string$/;"	i
+reports_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    reports_app = get_class('dashboard.reports.app', 'application')$/;"	v	class:DashboardApplication
+resolve	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^from django.core.urlresolvers import NoReverseMatch, resolve, reverse$/;"	i
+restart_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^def restart_app(sender, **kwargs):$/;"	f
+reverse	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^from django.core.urlresolvers import reverse$/;"	i
+reverse	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from django.core.urlresolvers import reverse, reverse_lazy$/;"	i
+reverse	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.core.urlresolvers import reverse$/;"	i
+reverse	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.core.urlresolvers import reverse, reverse_lazy$/;"	i
+reverse	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^from django.core.urlresolvers import NoReverseMatch, resolve, reverse$/;"	i
+reverse	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.core.urlresolvers import reverse$/;"	i
+reverse_lazy	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from django.core.urlresolvers import reverse, reverse_lazy$/;"	i
+reverse_lazy	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.core.urlresolvers import reverse, reverse_lazy$/;"	i
+reviews_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    reviews_app = get_class('dashboard.reviews.app', 'application')$/;"	v	class:DashboardApplication
+save	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/forms.py	/^    def save(self,commit=True):$/;"	m	class:AppearanceUpdateForm
+send_android	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^send_android = FCMNotification($/;"	v
+send_android_notification	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^def send_android_notification(registration_ids, message):$/;"	f
+send_android_notification	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from AdminAPI.views import send_android_notification$/;"	i
+send_android_notify	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^send_android_notify = FCMNotification($/;"	v
+send_mail	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^from django.core.mail import send_mail$/;"	i
+send_notify	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^def send_notify(request):$/;"	f
+sendcontact	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^def sendcontact(request):$/;"	f
+serialize	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^                                                                   serialize=False,$/;"	v	class:Migration
+serializer_class	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    serializer_class = OrderSerializer$/;"	v	class:OrderList
+serializer_class	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    serializer_class = OrderSerializer$/;"	v	class:RestaurantOrders
+serializer_class	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/views.py	/^    serializer_class = OrderStatusSerializer$/;"	v	class:ChangeOrderStatusView
+settings	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/menu.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/views.py	/^from django.conf import settings$/;"	i
+shipping_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    shipping_app = get_class('dashboard.shipping.app', 'application')$/;"	v	class:DashboardApplication
+signals	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from oscar.apps.checkout import signals$/;"	i
+six	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^from django.utils import six$/;"	i
+slugify	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^from oscar.core.utils import slugify$/;"	i
+staff_member_required	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^from django.contrib.admin.views.decorators import staff_member_required$/;"	i
+static	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^from django.conf.urls.static import static$/;"	i
+stripe	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^import stripe$/;"	i
+stripeEmail	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/forms.py	/^    stripeEmail = forms.EmailField(widget=forms.HiddenInput())$/;"	v	class:StripeTokenForm
+stripeToken	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/forms.py	/^    stripeToken = forms.CharField(widget=forms.HiddenInput())$/;"	v	class:StripeTokenForm
+sub_heading	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    sub_heading = models.CharField(_("Sub Heading"), max_length=64, blank=True, null=True)$/;"	v	class:MapBlock
+sub_heading	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^    sub_heading = models.TextField(_('Sub Heading'),blank=True)$/;"	v	class:ImageBlock
+success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    success_url = reverse_lazy('checkout:shipping-address')$/;"	v	class:IndexView
+success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    success_url = reverse_lazy('dashboard:location-list')$/;"	v	class:LocationCreateView
+success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    success_url = reverse_lazy('dashboard:location-list')$/;"	v	class:LocationManageView
+success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    success_url = reverse_lazy('dashboard:timing-list')$/;"	v	class:TimingCreateView
+success_url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    success_url = reverse_lazy('dashboard:timing-list')$/;"	v	class:TimingManageView
+sys	/home/anoop/Works/Insta_venv/instaoscar/manage.py	/^import sys$/;"	i
+template	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/tables.py	/^        template = 'dashboard\/table.html'$/;"	v	class:DashboardTable.Meta
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    template_name = 'checkout\/gateway.html'$/;"	v	class:IndexView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^    template_name = 'checkout\/shipping_methods.html'$/;"	v	class:ShippingMethodView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/index.html'$/;"	v	class:AppearanceView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/location_create.html'$/;"	v	class:LocationCreateView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/location_delete.html'$/;"	v	class:LocationDeleteView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/location_list.html'$/;"	v	class:LocationListView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/location_manage.html'$/;"	v	class:LocationManageView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/timing_create.html'$/;"	v	class:TimingCreateView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/timing_delete.html'$/;"	v	class:TimingDeleteView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/timing_manage.html'$/;"	v	class:TimingManageView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/views.py	/^    template_name = 'dashboard\/appearance\/timing_view.html'$/;"	v	class:TimingListView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    template_name = 'dashboard\/promotions\/delete.html'$/;"	v	class:DeleteView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    template_name = 'dashboard\/promotions\/delete_pagepromotion.html'$/;"	v	class:DeletePagePromotionView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    template_name = 'dashboard\/promotions\/page_detail.html'$/;"	v	class:PageDetailView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    template_name = 'dashboard\/promotions\/pagepromotion_list.html'$/;"	v	class:PageListView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/views.py	/^    template_name = 'dashboard\/promotions\/promotion_list.html'$/;"	v	class:ListView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^    template_name = 'paypal\/express\/dashboard\/transaction_detail.html'$/;"	v	class:TransactionDetailView
+template_name	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/views.py	/^    template_name = 'paypal\/express\/dashboard\/transaction_list.html'$/;"	v	class:TransactionListView
+template_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    template_view = get_class('forked_apps.dashboard.appearance.views', 'AppearanceView')$/;"	v	class:AppearanceApplication
+themes	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    themes = models.CharField(_('Themes'), max_length=20,$/;"	v	class:AppearanceSettings
+timedelta	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/views.py	/^from datetime import timedelta$/;"	i
+timezone	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/facade.py	/^from django.utils import timezone$/;"	i
+to	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^                                                                   to='promotions.HandPickedProductList',$/;"	v	class:Migration
+ungettext_lazy	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/tables.py	/^from django.utils.translation import ungettext_lazy$/;"	i
+unicode_literals	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/migrations/0002_daytimings_locationsettings.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0002_auto_20150604_1450.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0003_imageblock.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0004_mapblock.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0005_auto_20170627_2241.py	/^from __future__ import unicode_literals$/;"	i
+unique_together	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/migrations/0001_initial.py	/^            unique_together=set([('list', 'product')]),$/;"	v	class:Migration
+update_view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^    update_view = get_class('forked_apps.dashboard.appearance.views', 'TimingManageView')$/;"	v	class:AppearanceApplication
+updatedCheckoutMixin	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/session.py	/^class updatedCheckoutMixin(CheckoutSessionMixin):$/;"	c
+updatedCheckoutMixin	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^updatedCheckoutMixin = get_class('forked_apps.checkout.session','updatedCheckoutMixin')$/;"	v
+url	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/urls.py	/^from django.conf.urls import  url$/;"	i
+url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^from django.conf.urls import url$/;"	i
+url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/app.py	/^from django.conf.urls import url$/;"	i
+url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/nav.py	/^    def url(self):$/;"	m	class:Node
+url	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^from django.conf.urls import url$/;"	i
+url	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^from django.conf.urls import include, url$/;"	i
+url	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^from django.conf.urls import patterns, url$/;"	i
+urlpatterns	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	/home/anoop/Works/Insta_venv/instaoscar/frobshop/urls.py	/^urlpatterns = [$/;"	v
+user	/home/anoop/Works/Insta_venv/instaoscar/AdminAPI/models.py	/^    user = models.ForeignKey(User)$/;"	v	class:AppUser
+user_is_authenticated	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/views.py	/^from oscar.core.compat import user_is_authenticated$/;"	i
+users_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    users_app = get_class('dashboard.users.app', 'application')$/;"	v	class:DashboardApplication
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        verbose_name = _('App Settings')$/;"	v	class:AppearanceSettings.Meta
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        verbose_name = _('Day Settings')$/;"	v	class:DayTimings.Meta
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^        verbose_name = _('Location Settings')$/;"	v	class:LocationSettings.Meta
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/config.py	/^    verbose_name = _('Appearance')$/;"	v	class:AppearanceConfig
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/appearance/config.py	/^    verbose_name = _('Appearance dashboard')$/;"	v	class:AppearanceDashboardConfig
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/config.py	/^    verbose_name = _('Dashboard')$/;"	v	class:DashboardConfig
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        verbose_name = _("Event Data")$/;"	v	class:EventBlock.Meta
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        verbose_name = _("Event Slider")$/;"	v	class:EventSliderBlock.Meta
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        verbose_name = _("Image Text Block")$/;"	v	class:ImageBlock.Meta
+verbose_name	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        verbose_name = _("Map & Address block")$/;"	v	class:MapBlock.Meta
+verbose_name_plural	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        verbose_name_plural = _("Event Data")$/;"	v	class:EventBlock.Meta
+verbose_name_plural	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        verbose_name_plural = _("Event Slider")$/;"	v	class:EventSliderBlock.Meta
+verbose_name_plural	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        verbose_name_plural = _("Image Text Blocks")$/;"	v	class:ImageBlock.Meta
+verbose_name_plural	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/promotions/models.py	/^        verbose_name_plural = _("Map Location")$/;"	v	class:MapBlock.Meta
+view	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^            view = get_class('dashboard.promotions.views', full_view_name)$/;"	v	class:PromotionsDashboardApplication
+view_names	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/app.py	/^    view_names = ($/;"	v	class:PromotionsDashboardApplication
+views	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/checkout/app.py	/^from oscar_stripe import views$/;"	i
+views	/home/anoop/Works/Insta_venv/instaoscar/oscar_stripe/dashboard/app.py	/^from paypal.express.dashboard import views$/;"	i
+vouchers_app	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/app.py	/^    vouchers_app = get_class('dashboard.vouchers.app', 'application')$/;"	v	class:DashboardApplication
+widgets	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^        widgets = {$/;"	v	class:EventDataForm.Meta
+widgets	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/dashboard/promotions/forms.py	/^from oscar.forms import widgets$/;"	i
+zipcode	/home/anoop/Works/Insta_venv/instaoscar/forked_apps/appearance/abstract_models.py	/^    zipcode = models.CharField(max_length=20, blank=True,null=True,unique=True)$/;"	v	class:LocationSettings

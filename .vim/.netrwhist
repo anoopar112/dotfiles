@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/anoop/Documents/Projects/servemeangular/src'
+let g:netrw_dirhist_2='/home/anoop/Documents/Projects/servemeangular/src/app'
+let g:netrw_dirhist_3='/home/anoop/Documents/Projects/servemeangular/src/app/customer'
+let g:netrw_dirhist_4='/home/anoop/Works/frt_venv/instafrt'
+let g:netrw_dirhist_5='/home/anoop/Documents/Projects/servemeangular/src/app/admin/admin-real-estate'
+let g:netrw_dirhist_6='/home/anoop/Works/pywarrior_venv/pywarriors/webapp/templates'
+let g:netrw_dirhist_7='/home/anoop/Documents/Projects/servemeangular/src/app/general'
+let g:netrw_dirhist_8='/home/anoop/Documents/Projects/servemeangular/src/app'
+let g:netrw_dirhist_9='/home/anoop/Documents/Projects/servemeangular/src/app/admin'

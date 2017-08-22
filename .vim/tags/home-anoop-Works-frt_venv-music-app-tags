@@ -1,0 +1,266 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^ALLOWED_HOSTS = ['www.music.pywarriors.com','music.pywarriors.com']$/;"	v
+AUTH_PASSWORD_VALIDATORS	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AppConfig	/home/anoop/Works/frt_venv/music-app/webapp/apps.py	/^from django.apps import AppConfig$/;"	i
+AuthenticationForm	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.contrib.auth.forms import AuthenticationForm$/;"	i
+BASE_DIR	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+CreateMusic	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class CreateMusic(CreateView):$/;"	c
+CreateView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.generic import CreateView$/;"	i
+DATABASES	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^DATABASES = {$/;"	v
+DATABASES	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^DATABASES = {$/;"	v
+DEBUG	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^DEBUG = True$/;"	v
+DEBUG	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^DEBUG = True$/;"	v
+DeleteMusic	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class DeleteMusic(DeleteView):$/;"	c
+DeleteView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.generic import DeleteView$/;"	i
+EMAIL_BACKEND	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'$/;"	v
+EMAIL_BACKEND	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'$/;"	v
+EMAIL_HOST	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^EMAIL_HOST = 'smtp.gmail.com'$/;"	v
+EMAIL_HOST	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^EMAIL_HOST = 'smtp.gmail.com'$/;"	v
+EMAIL_HOST_PASSWORD	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^EMAIL_HOST_PASSWORD = 'ewsognaboezjkoqh'$/;"	v
+EMAIL_HOST_PASSWORD	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^EMAIL_HOST_PASSWORD = 'ewsognaboezjkoqh'$/;"	v
+EMAIL_HOST_USER	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^EMAIL_HOST_USER ='musicpywarriors@gmail.com'$/;"	v
+EMAIL_HOST_USER	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^EMAIL_HOST_USER ='musicpywarriors@gmail.com'$/;"	v
+EMAIL_PORT	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^EMAIL_PORT = 587$/;"	v
+EMAIL_PORT	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^EMAIL_PORT = 587$/;"	v
+EMAIL_USE_TLS	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^EMAIL_USE_TLS = True$/;"	v
+EMAIL_USE_TLS	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^EMAIL_USE_TLS = True$/;"	v
+EmailDetail	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class EmailDetail(generics.RetrieveUpdateDestroyAPIView):$/;"	c
+EmailList	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class EmailList(generics.ListCreateAPIView):$/;"	c
+EmailSerializer	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^class EmailSerializer(serializers.ModelSerializer):$/;"	c
+EmailSerializer	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from webapp.serializer import EmailSerializer$/;"	i
+EmailSubscription	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^class EmailSubscription(models.Model):$/;"	c
+EmailSubscription	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from webapp.models import EmailSubscription$/;"	i
+EmailSubscription	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from webapp.models import EmailSubscription$/;"	i
+FormFieldNode	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/form_tags.py	/^class FormFieldNode(template.Node):$/;"	c
+FormView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.generic import FormView, RedirectView$/;"	i
+HomeView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class HomeView(ListView):$/;"	c
+HttpResponseRedirect	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.http import HttpResponseRedirect$/;"	i
+INSTALLED_APPS	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LOGIN_REDIRECT_URL	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^LOGIN_REDIRECT_URL = '\/'$/;"	v
+LOGIN_REDIRECT_URL	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^LOGIN_REDIRECT_URL = '\/'$/;"	v
+LOGIN_URL	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^LOGIN_URL = '\/'$/;"	v
+LOGIN_URL	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^LOGIN_URL = '\/'$/;"	v
+ListView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.generic import ListView$/;"	i
+LoginView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class LoginView(FormView):$/;"	c
+LogoutView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class LogoutView(RedirectView):$/;"	c
+MEDIA_ROOT	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads\/')$/;"	v
+MEDIA_ROOT	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads\/')$/;"	v
+MEDIA_URL	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^MEDIA_URL = '\/uploads\/'$/;"	v
+MEDIA_URL	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^MEDIA_URL = '\/uploads\/'$/;"	v
+MIDDLEWARE	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^MIDDLEWARE = [$/;"	v
+Meta	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    class Meta:$/;"	c	class:EmailSubscription
+Meta	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    class Meta:$/;"	c	class:MusicFiles
+Meta	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    class Meta:$/;"	c	class:MusicRequestEmail
+Meta	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    class Meta:$/;"	c	class:SongRequest
+Meta	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^     class Meta:$/;"	c	class:EmailSerializer
+Meta	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^     class Meta:$/;"	c	class:MusicSerializer
+Meta	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^     class Meta:$/;"	c	class:SongRequestSerializer
+Meta	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^    class Meta:$/;"	c	class:UserSerializer
+Migration	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+MusicDetail	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class MusicDetail(generics.RetrieveUpdateDestroyAPIView):$/;"	c
+MusicFiles	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^class MusicFiles(models.Model):$/;"	c
+MusicFiles	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from webapp.models import MusicFiles$/;"	i
+MusicFiles	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from webapp.models import MusicFiles$/;"	i
+MusicList	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class MusicList(generics.ListCreateAPIView):$/;"	c
+MusicRequestEmail	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^class MusicRequestEmail(models.Model):$/;"	c
+MusicRequestEmail	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from webapp.models import MusicRequestEmail$/;"	i
+MusicSerializer	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^class MusicSerializer(serializers.ModelSerializer):$/;"	c
+MusicSerializer	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from webapp.serializer import MusicSerializer$/;"	i
+REDIRECT_FIELD_NAME	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.contrib.auth import REDIRECT_FIELD_NAME, login as auth_login, logout as auth_logout,authenticate$/;"	i
+ROOT_URLCONF	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^ROOT_URLCONF = 'musicapp.urls'$/;"	v
+ROOT_URLCONF	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^ROOT_URLCONF = 'musicapp.urls'$/;"	v
+RedirectView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.generic import FormView, RedirectView$/;"	i
+RequestDetail	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class RequestDetail(generics.RetrieveUpdateDestroyAPIView):$/;"	c
+RequestList	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class RequestList(generics.ListCreateAPIView):$/;"	c
+Response	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from rest_framework.response import Response$/;"	i
+STATICFILES_DIRS	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_DIRS	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_FINDERS	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATICFILES_FINDERS	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATIC_ROOT	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'static_dir')$/;"	v
+STATIC_ROOT	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'static')$/;"	v
+STATIC_URL	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+SongRequest	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^class SongRequest(models.Model):$/;"	c
+SongRequest	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from webapp.models import SongRequest$/;"	i
+SongRequest	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from webapp.models import SongRequest$/;"	i
+SongRequestSerializer	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^class SongRequestSerializer(serializers.ModelSerializer):$/;"	c
+SongRequestSerializer	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from webapp.serializer import SongRequestSerializer$/;"	i
+TEMPLATES	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TemplateView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.generic import TemplateView$/;"	i
+TestCase	/home/anoop/Works/frt_venv/music-app/webapp/tests.py	/^from django.test import TestCase$/;"	i
+USE_I18N	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^USE_TZ = True$/;"	v
+UpdateMusic	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class UpdateMusic(UpdateView):$/;"	c
+UpdateMusicRequestEmail	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^class UpdateMusicRequestEmail(UpdateView):$/;"	c
+UpdateView	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.generic import UpdateView$/;"	i
+User	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from django.contrib.auth.models import User$/;"	i
+UserSerializer	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^class UserSerializer(serializers.HyperlinkedModelSerializer):$/;"	c
+UserViewSet	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^class UserViewSet(viewsets.ModelViewSet):$/;"	c
+WSGI_APPLICATION	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^WSGI_APPLICATION = 'musicapp.wsgi.application'$/;"	v
+WSGI_APPLICATION	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^WSGI_APPLICATION = 'musicapp.wsgi.application'$/;"	v
+WebappConfig	/home/anoop/Works/frt_venv/music-app/webapp/apps.py	/^class WebappConfig(AppConfig):$/;"	c
+_	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.utils.translation import ugettext_lazy as _$/;"	i
+__init__	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/form_tags.py	/^    def __init__(self, field_str):$/;"	m	class:FormFieldNode
+__str__	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    def __str__(self):$/;"	m	class:EmailSubscription	file:
+__str__	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    def __str__(self):$/;"	m	class:MusicFiles	file:
+__str__	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    def __str__(self):$/;"	m	class:MusicRequestEmail	file:
+__str__	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    def __str__(self):$/;"	m	class:SongRequest	file:
+actor	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    actor = models.CharField(max_length=254, blank=True, null=True)$/;"	v	class:SongRequest
+admin	/home/anoop/Works/frt_venv/music-app/musicapp/urls.py	/^from django.contrib import admin$/;"	i
+admin	/home/anoop/Works/frt_venv/music-app/webapp/admin.py	/^from django.contrib import admin$/;"	i
+annotate_form_field	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/form_tags.py	/^def annotate_form_field(parser, token):$/;"	f
+api_view	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from rest_framework.decorators import api_view$/;"	i
+app_login	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^def app_login(request):$/;"	f
+application	/home/anoop/Works/frt_venv/music-app/musicapp/wsgi.py	/^application = get_wsgi_application()$/;"	v
+auth_login	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.contrib.auth import REDIRECT_FIELD_NAME, login as auth_login, logout as auth_logout,authenticate$/;"	i
+auth_logout	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.contrib.auth import REDIRECT_FIELD_NAME, login as auth_login, logout as auth_logout,authenticate$/;"	i
+authenticate	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.contrib.auth import REDIRECT_FIELD_NAME, login as auth_login, logout as auth_logout,authenticate$/;"	i
+context_object_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    context_object_name = "files"$/;"	v	class:HomeView
+context_object_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    context_object_name = "musicemail"$/;"	v	class:UpdateMusicRequestEmail
+context_object_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    context_object_name = 'files'$/;"	v	class:CreateMusic
+context_object_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    context_object_name = 'files'$/;"	v	class:DeleteMusic
+context_object_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    context_object_name = 'files'$/;"	v	class:UpdateMusic
+create	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^    def create(self, validated_data):$/;"	m	class:UserSerializer
+created_date	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    created_date = models.DateTimeField(blank=True,null=True,auto_now=True)$/;"	v	class:MusicFiles
+csrf_protect	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.decorators.csrf import csrf_protect$/;"	i
+default_permissions	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^        default_permissions = ()$/;"	v	class:EmailSubscription.Meta
+default_permissions	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^        default_permissions = ()$/;"	v	class:MusicFiles.Meta
+default_permissions	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^        default_permissions = ()$/;"	v	class:MusicRequestEmail.Meta
+default_permissions	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^        default_permissions = ()$/;"	v	class:SongRequest.Meta
+dependencies	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dispatch	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def dispatch(self, *args, **kwargs):$/;"	m	class:CreateMusic
+dispatch	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def dispatch(self, *args, **kwargs):$/;"	m	class:DeleteMusic
+dispatch	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def dispatch(self, *args, **kwargs):$/;"	m	class:HomeView
+dispatch	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def dispatch(self, *args, **kwargs):$/;"	m	class:UpdateMusic
+dispatch	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def dispatch(self, *args, **kwargs):$/;"	m	class:UpdateMusicRequestEmail
+django	/home/anoop/Works/frt_venv/music-app/manage.py	/^            import django$/;"	i
+email	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    email = models.EmailField(max_length=254, blank=True, null=True)$/;"	v	class:EmailSubscription
+email	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    email = models.EmailField(max_length=254, blank=True, null=True)$/;"	v	class:MusicRequestEmail
+execute_from_command_line	/home/anoop/Works/frt_venv/music-app/manage.py	/^        from django.core.management import execute_from_command_line$/;"	i
+fields	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        fields = '__all__'$/;"	v	class:EmailSerializer.Meta
+fields	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        fields = '__all__'$/;"	v	class:MusicSerializer.Meta
+fields	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        fields = '__all__'$/;"	v	class:SongRequestSerializer.Meta
+fields	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        fields = ('url', 'username', 'password', 'email', 'first_name', 'last_name')$/;"	v	class:UserSerializer.Meta
+fields	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    fields = '__all__'$/;"	v	class:CreateMusic
+fields	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    fields = '__all__'$/;"	v	class:UpdateMusic
+fields	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    fields = '__all__'$/;"	v	class:UpdateMusicRequestEmail
+form_class	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    form_class = AuthenticationForm$/;"	v	class:LoginView
+forms	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django import forms$/;"	i
+generics	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from rest_framework import generics$/;"	i
+get	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def get(self, request, *args, **kwargs):$/;"	m	class:LogoutView
+get_context_data	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def get_context_data(self,**kwargs):$/;"	m	class:CreateMusic
+get_success_url	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def get_success_url(self):$/;"	m	class:CreateMusic
+get_success_url	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def get_success_url(self):$/;"	m	class:DeleteMusic
+get_success_url	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def get_success_url(self):$/;"	m	class:LoginView
+get_success_url	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def get_success_url(self):$/;"	m	class:UpdateMusic
+get_success_url	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def get_success_url(self):$/;"	m	class:UpdateMusicRequestEmail
+get_token	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.middleware.csrf import get_token$/;"	i
+get_wsgi_application	/home/anoop/Works/frt_venv/music-app/musicapp/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+include	/home/anoop/Works/frt_venv/music-app/musicapp/urls.py	/^from django.conf.urls import url, include$/;"	i
+initial	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+is_safe_url	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.utils.http import is_safe_url$/;"	i
+login_required	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.contrib.auth.decorators import login_required$/;"	i
+messages	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.contrib import messages$/;"	i
+method_decorator	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.utils.decorators import method_decorator$/;"	i
+mfile	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    mfile = models.FileField(upload_to= u"music\/")$/;"	v	class:MusicFiles
+migrations	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+model	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        model = EmailSubscription$/;"	v	class:EmailSerializer.Meta
+model	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        model = MusicFiles$/;"	v	class:MusicSerializer.Meta
+model	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        model = SongRequest$/;"	v	class:SongRequestSerializer.Meta
+model	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        model = User$/;"	v	class:UserSerializer.Meta
+model	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    model = MusicFiles$/;"	v	class:CreateMusic
+model	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    model = MusicFiles$/;"	v	class:DeleteMusic
+model	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    model = MusicFiles$/;"	v	class:HomeView
+model	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    model = MusicFiles$/;"	v	class:UpdateMusic
+model	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    model = MusicRequestEmail$/;"	v	class:UpdateMusicRequestEmail
+models	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^from django.db import models$/;"	i
+name	/home/anoop/Works/frt_venv/music-app/musicapp/urls.py	/^        name="requestdetail"),$/;"	v
+name	/home/anoop/Works/frt_venv/music-app/webapp/apps.py	/^    name = 'webapp'$/;"	v	class:WebappConfig
+name	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^            name='MusicFiles',$/;"	v	class:Migration
+name	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    name = models.TextField()$/;"	v	class:MusicFiles
+never_cache	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.decorators.cache import never_cache$/;"	i
+operations	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+options	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+os	/home/anoop/Works/frt_venv/music-app/manage.py	/^import os$/;"	i
+os	/home/anoop/Works/frt_venv/music-app/musicapp/local_settings.py	/^import os$/;"	i
+os	/home/anoop/Works/frt_venv/music-app/musicapp/settings.py	/^import os$/;"	i
+os	/home/anoop/Works/frt_venv/music-app/musicapp/wsgi.py	/^import os$/;"	i
+password	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^    password = serializers.CharField(write_only=True)$/;"	v	class:UserSerializer
+permission_classes	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        permission_classes = [$/;"	v	class:UserViewSet
+permissions	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from rest_framework import permissions$/;"	i
+post	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    def post(self,request):$/;"	m	class:LoginView
+post_save	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.db.models.signals import post_save$/;"	i
+queryset	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        queryset = User.objects.all()$/;"	v	class:UserViewSet
+queryset	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    queryset = EmailSubscription.objects.all()$/;"	v	class:EmailDetail
+queryset	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    queryset = EmailSubscription.objects.all()$/;"	v	class:EmailList
+queryset	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    queryset = MusicFiles.objects.all()$/;"	v	class:MusicDetail
+queryset	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    queryset = MusicFiles.objects.all()$/;"	v	class:MusicList
+queryset	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    queryset = SongRequest.objects.all()$/;"	v	class:RequestDetail
+queryset	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    queryset = SongRequest.objects.all()$/;"	v	class:RequestList
+receiver	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.dispatch import receiver$/;"	i
+register	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/form_tags.py	/^register = template.Library()$/;"	v
+register	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/string_filters.py	/^register = template.Library()$/;"	v
+render	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/form_tags.py	/^    def render(self, context):$/;"	m	class:FormFieldNode
+render	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.shortcuts import render$/;"	i
+reverse	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.core.urlresolvers import reverse$/;"	i
+router	/home/anoop/Works/frt_venv/music-app/musicapp/urls.py	/^from webapp.serializer import router$/;"	i
+router	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^router = routers.DefaultRouter()$/;"	v
+routers	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from rest_framework import routers, serializers, viewsets$/;"	i
+send_mail	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.core.mail import send_mail$/;"	i
+send_song_request_mail	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^def send_song_request_mail(sender,instance, **kwargs):$/;"	f
+sensitive_post_parameters	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.views.decorators.debug import sensitive_post_parameters$/;"	i
+serializer_class	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^        serializer_class = UserSerializer$/;"	v	class:UserViewSet
+serializer_class	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    serializer_class = EmailSerializer$/;"	v	class:EmailDetail
+serializer_class	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    serializer_class = EmailSerializer$/;"	v	class:EmailList
+serializer_class	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    serializer_class = MusicSerializer$/;"	v	class:MusicDetail
+serializer_class	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    serializer_class = MusicSerializer$/;"	v	class:MusicList
+serializer_class	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    serializer_class = SongRequestSerializer$/;"	v	class:RequestDetail
+serializer_class	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    serializer_class = SongRequestSerializer$/;"	v	class:RequestList
+serializers	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from rest_framework import routers, serializers, viewsets$/;"	i
+serializers	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from rest_framework import serializers$/;"	i
+settings	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from django.conf import settings$/;"	i
+song_name	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    song_name = models.CharField(max_length=254, blank=True, null=True)$/;"	v	class:SongRequest
+split	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/string_filters.py	/^def split(value, separator=' '):$/;"	f
+sys	/home/anoop/Works/frt_venv/music-app/manage.py	/^import sys$/;"	i
+template	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/form_tags.py	/^from django import template$/;"	i
+template	/home/anoop/Works/frt_venv/music-app/webapp/templatetags/string_filters.py	/^from django import template$/;"	i
+template_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    template_name = "login_page.html"$/;"	v	class:LoginView
+template_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    template_name = 'create_music.html'$/;"	v	class:CreateMusic
+template_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    template_name = 'delete_music.html'$/;"	v	class:DeleteMusic
+template_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    template_name = 'home.html'$/;"	v	class:HomeView
+template_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    template_name = 'update_music.html'$/;"	v	class:UpdateMusic
+template_name	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    template_name = 'update_music_email.html'$/;"	v	class:UpdateMusicRequestEmail
+unicode_literals	/home/anoop/Works/frt_venv/music-app/webapp/admin.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/frt_venv/music-app/webapp/apps.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/frt_venv/music-app/webapp/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/frt_venv/music-app/webapp/tests.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^from __future__ import unicode_literals$/;"	i
+url	/home/anoop/Works/frt_venv/music-app/musicapp/urls.py	/^from django.conf.urls import url, include$/;"	i
+url	/home/anoop/Works/frt_venv/music-app/webapp/views.py	/^    url = '\/'$/;"	v	class:LogoutView
+urlpatterns	/home/anoop/Works/frt_venv/music-app/musicapp/urls.py	/^urlpatterns = [$/;"	v
+username	/home/anoop/Works/frt_venv/music-app/webapp/models.py	/^    username = models.CharField(max_length=254, blank=True, null=True)$/;"	v	class:SongRequest
+viewsets	/home/anoop/Works/frt_venv/music-app/webapp/serializer.py	/^from rest_framework import routers, serializers, viewsets$/;"	i
+webapp_views	/home/anoop/Works/frt_venv/music-app/musicapp/urls.py	/^from webapp import views as webapp_views$/;"	i

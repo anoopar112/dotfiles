@@ -1,0 +1,141 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^ALLOWED_HOSTS = ['pywarriors.com','www.pywarriors.com']$/;"	v
+AUTH_PASSWORD_VALIDATORS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_PASSWORD_VALIDATORS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AppConfig	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/apps.py	/^from django.apps import AppConfig$/;"	i
+Author	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^class Author(models.Model):$/;"	c
+BASE_DIR	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+Blog	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^class Blog(models.Model):$/;"	c
+Blog	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^from webapp.models import Blog$/;"	i
+BlogDetail	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^class BlogDetail(DetailView):$/;"	c
+DATABASES	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^DATABASES = {$/;"	v
+DATABASES	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^DATABASES = {$/;"	v
+DEBUG	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^DEBUG = True$/;"	v
+DEBUG	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^DEBUG = True$/;"	v
+DetailView	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^from django.views.generic import DetailView$/;"	i
+Home	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^class Home(ListView):$/;"	c
+INSTALLED_APPS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^INSTALLED_APPS = [$/;"	v
+INSTALLED_APPS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LOGIN_REDIRECT_URL	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^LOGIN_REDIRECT_URL = '\/'$/;"	v
+LOGIN_REDIRECT_URL	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^LOGIN_REDIRECT_URL = '\/'$/;"	v
+LOGIN_URL	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^LOGIN_URL = '\/'$/;"	v
+LOGIN_URL	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^LOGIN_URL = '\/'$/;"	v
+ListView	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^from django.views.generic import ListView$/;"	i
+MEDIA_ROOT	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads\/')$/;"	v
+MEDIA_ROOT	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads\/')$/;"	v
+MEDIA_URL	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^MEDIA_URL = '\/uploads\/'$/;"	v
+MEDIA_URL	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^MEDIA_URL = '\/uploads\/'$/;"	v
+MIDDLEWARE	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^MIDDLEWARE = [$/;"	v
+MIDDLEWARE	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^MIDDLEWARE = [$/;"	v
+Meta	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    class Meta:$/;"	c	class:Author
+Meta	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    class Meta:$/;"	c	class:Blog
+Meta	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    class Meta:$/;"	c	class:Tag
+Migration	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^class Migration(migrations.Migration):$/;"	c
+ROOT_URLCONF	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^ROOT_URLCONF = 'pywarriors.urls'$/;"	v
+ROOT_URLCONF	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^ROOT_URLCONF = 'pywarriors.urls'$/;"	v
+SECRET_KEY	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^SECRET_KEY = 'g&*qzwa8i1%cef*aojr)qnqbuku37q2su($&&i-t4c-vwjn4$u'$/;"	v
+SECRET_KEY	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^SECRET_KEY = 'g&*qzwa8i1%cef*aojr)qnqbuku37q2su($&&i-t4c-vwjn4$u'$/;"	v
+STATICFILES_DIRS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_DIRS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_FINDERS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATICFILES_FINDERS	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATIC_ROOT	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'static_dir')$/;"	v
+STATIC_ROOT	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'static_dir')$/;"	v
+STATIC_URL	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+Tag	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^class Tag(models.Model):$/;"	c
+TestCase	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/tests.py	/^from django.test import TestCase$/;"	i
+USE_I18N	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^USE_TZ = True$/;"	v
+User	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^from django.contrib.auth.models import User$/;"	i
+WSGI_APPLICATION	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^WSGI_APPLICATION = 'pywarriors.wsgi.application'$/;"	v
+WSGI_APPLICATION	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^WSGI_APPLICATION = 'pywarriors.wsgi.application'$/;"	v
+WebappConfig	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/apps.py	/^class WebappConfig(AppConfig):$/;"	c
+__str__	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    def __str__(self):$/;"	m	class:Author	file:
+__str__	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    def __str__(self):$/;"	m	class:Blog	file:
+__str__	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    def __str__(self):$/;"	m	class:Tag	file:
+admin	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/urls.py	/^from django.contrib import admin$/;"	i
+admin	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/admin.py	/^from django.contrib import admin$/;"	i
+application	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/wsgi.py	/^application = get_wsgi_application()$/;"	v
+author	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    author = models.ForeignKey(Author)$/;"	v	class:Blog
+body	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    body = models.TextField()$/;"	v	class:Blog
+can_post	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    can_post = models.BooleanField(default=False)$/;"	v	class:Author
+context_object_name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^    context_object_name = "blog"$/;"	v	class:BlogDetail
+context_object_name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^    context_object_name = "blogs"$/;"	v	class:Home
+created_date	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    created_date = models.DateTimeField(blank=True,null=True,auto_now=True)$/;"	v	class:Blog
+db	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+default_permissions	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^        default_permissions = ()$/;"	v	class:Author.Meta
+default_permissions	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^        default_permissions = ()$/;"	v	class:Blog.Meta
+default_permissions	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^        default_permissions = ()$/;"	v	class:Tag.Meta
+deletion	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+dependencies	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^    dependencies = [$/;"	v	class:Migration
+django	/home/anoop/Works/pywarrior_venv/pywarriors/manage.py	/^            import django$/;"	i
+django	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+execute_from_command_line	/home/anoop/Works/pywarrior_venv/pywarriors/manage.py	/^        from django.core.management import execute_from_command_line$/;"	i
+field	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^            field=models.ManyToManyField(to='webapp.Tag'),$/;"	v	class:Migration
+fields	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+get_context_data	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^    def get_context_data(self, **kwargs):$/;"	m	class:Home
+get_last_five_blogs	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^def get_last_five_blogs(request):$/;"	f
+get_queryset	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^    def get_queryset(self):$/;"	m	class:Home
+get_wsgi_application	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+images	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    images = models.ImageField(upload_to="blogImg\/")$/;"	v	class:Blog
+initial	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+is_authorized	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    is_authorized  = models.BooleanField(default=False)$/;"	v	class:Author
+is_feautured	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    is_feautured = models.BooleanField(default=False)$/;"	v	class:Blog
+is_posted	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    is_posted = models.BooleanField(default=False)$/;"	v	class:Blog
+migrations	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+migrations	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^from django.db import migrations, models$/;"	i
+model	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^    model = Blog$/;"	v	class:BlogDetail
+model	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^    model = Blog$/;"	v	class:Home
+model_name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^            model_name='blog',$/;"	v	class:Migration
+models	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+models	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^from django.db import migrations, models$/;"	i
+models	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^from django.db import models$/;"	i
+name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/apps.py	/^    name = 'webapp'$/;"	v	class:WebappConfig
+name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^            name='Author',$/;"	v	class:Migration
+name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^            name='Blog',$/;"	v	class:Migration
+name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^            name='Tag',$/;"	v	class:Migration
+name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^            name='tags',$/;"	v	class:Migration
+name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    name = models.CharField(max_length=20, blank=True,null=True)$/;"	v	class:Tag
+operations	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^    operations = [$/;"	v	class:Migration
+options	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+os	/home/anoop/Works/pywarrior_venv/pywarriors/manage.py	/^import os$/;"	i
+os	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/local_settings.py	/^import os$/;"	i
+os	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/settings.py	/^import os$/;"	i
+os	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/wsgi.py	/^import os$/;"	i
+render	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^from django.shortcuts import render$/;"	i
+serve	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/urls.py	/^from django.views.static import serve$/;"	i
+settings	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/urls.py	/^from django.conf import settings$/;"	i
+settings	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^from django.conf import settings$/;"	i
+sys	/home/anoop/Works/pywarrior_venv/pywarriors/manage.py	/^import sys$/;"	i
+tags	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    tags = models.ManyToManyField(Tag)$/;"	v	class:Blog
+template_name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^    template_name = 'blogdetail.html'$/;"	v	class:BlogDetail
+template_name	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/views.py	/^    template_name = 'home.html'$/;"	v	class:Home
+title	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    title = models.CharField(max_length=100, blank=True,null=True)$/;"	v	class:Blog
+unicode_literals	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	i
+unicode_literals	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/migrations/0002_blog_tags.py	/^from __future__ import unicode_literals$/;"	i
+url	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/urls.py	/^from django.conf.urls import url$/;"	i
+urlpatterns	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/urls.py	/^urlpatterns = [$/;"	v
+user	/home/anoop/Works/pywarrior_venv/pywarriors/webapp/models.py	/^    user = models.ForeignKey(User)$/;"	v	class:Author
+webapp_views	/home/anoop/Works/pywarrior_venv/pywarriors/pywarriors/urls.py	/^from webapp import views as webapp_views$/;"	i

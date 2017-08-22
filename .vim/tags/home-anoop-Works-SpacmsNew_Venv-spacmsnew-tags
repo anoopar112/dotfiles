@@ -1,0 +1,481 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AnalyticsForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class AnalyticsForm(ModelForm):$/;"	c
+BASE_DIR	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BASE_DIR	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+Blog	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class Blog(models.Model):$/;"	c
+BlogForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class BlogForm(ModelForm):$/;"	c
+BlogSection	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class BlogSection(models.Model):$/;"	c
+BlogSectionForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class BlogSectionForm(ModelForm):$/;"	c
+CRISPY_TEMPLATE_PACK	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^CRISPY_TEMPLATE_PACK = 'bootstrap3'$/;"	v
+CRISPY_TEMPLATE_PACK	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^CRISPY_TEMPLATE_PACK = 'bootstrap3'$/;"	v
+ContactDetails	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class ContactDetails(models.Model):$/;"	c
+ContactPageNumberClass	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^class ContactPageNumberClass(PageNumberPagination):$/;"	c
+ContactSerializer	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/serializers.py	/^class ContactSerializer(ModelSerializer):$/;"	c
+ContactSerializer	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from .serializers import ContactSerializer$/;"	i
+ContactSerializerView	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/urls.py	/^from .views import ContactSerializerView$/;"	i
+ContactSerializerView	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^class ContactSerializerView(ListAPIView):$/;"	c
+ContactUs	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class ContactUs(models.Model):$/;"	c
+ContactUsForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class ContactUsForm(ModelForm):$/;"	c
+DATABASES	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^DATABASES = {$/;"	v
+DATABASES	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^DATABASES = {$/;"	v
+DEBUG	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^DEBUG = True$/;"	v
+DEBUG	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^DEBUG = True$/;"	v
+EMAIL_BACKEND	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'$/;"	v
+EMAIL_BACKEND	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'$/;"	v
+EMAIL_HOST	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^EMAIL_HOST = 'smtp.gmail.com'$/;"	v
+EMAIL_HOST	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^EMAIL_HOST = 'smtp.gmail.com'$/;"	v
+EMAIL_HOST_PASSWORD	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^EMAIL_HOST_PASSWORD = 'knfm gxpt bxca sxvy'$/;"	v
+EMAIL_HOST_PASSWORD	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^EMAIL_HOST_PASSWORD = 'knfm gxpt bxca sxvy'$/;"	v
+EMAIL_HOST_USER	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^EMAIL_HOST_USER = 'contactgsroofingsolutions@gmail.com'$/;"	v
+EMAIL_HOST_USER	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^EMAIL_HOST_USER = 'contactgsroofingsolutions@gmail.com'$/;"	v
+EMAIL_PORT	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^EMAIL_PORT = 587$/;"	v
+EMAIL_PORT	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^EMAIL_PORT = 587$/;"	v
+EMAIL_USE_TLS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^EMAIL_USE_TLS = True$/;"	v
+EMAIL_USE_TLS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^EMAIL_USE_TLS = True$/;"	v
+FooteraddressForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class FooteraddressForm(ModelForm):$/;"	c
+FooterdataForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class FooterdataForm(ModelForm):$/;"	c
+FormHelper	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^from crispy_forms.helper import FormHelper$/;"	i
+HttpResponse	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from django.http import HttpResponse$/;"	i
+HttpResponseRedirect	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/login/views.py	/^from django.http import HttpResponseRedirect$/;"	i
+HttpResponseRedirect	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from django.http import HttpResponseRedirect$/;"	i
+INSTALLED_APPS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^INSTALLED_APPS = ($/;"	v
+INSTALLED_APPS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^INSTALLED_APPS = ($/;"	v
+LANGUAGE_CODE	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LANGUAGE_CODE	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LogoForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class LogoForm(ModelForm):$/;"	c
+MEDIA_ROOT	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'media\/')$/;"	v
+MEDIA_ROOT	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'media\/')$/;"	v
+MEDIA_URL	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^MEDIA_URL = '\/media\/'$/;"	v
+MEDIA_URL	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^MEDIA_URL = '\/media\/'$/;"	v
+MIDDLEWARE_CLASSES	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+MIDDLEWARE_CLASSES	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+MainmenuForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class MainmenuForm(ModelForm):$/;"	c
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:AnalyticsForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:BlogForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:BlogSectionForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:ContactUsForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:FooteraddressForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:FooterdataForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:LogoForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:MainmenuForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:MetatagsForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:OurTeamForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:PageForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:PortFolioMenuDatasForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:PortFolioMenusForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:RedirectForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:SectionStepsForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:ServiceDataForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:ServiceSectionForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:SiteForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:SliderdataForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:SubmenuForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:TestimonialForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:TestimonialsForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    class Meta:$/;"	c	class:ThemeForm
+Meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/serializers.py	/^    class Meta:$/;"	c	class:ContactSerializer
+Meta_tags	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class Meta_tags(models.Model):$/;"	c
+MetatagsForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class MetatagsForm(ModelForm):$/;"	c
+ModelForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^from django.forms import ModelForm$/;"	i
+OurTeam	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class OurTeam(models.Model):$/;"	c
+OurTeamForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class OurTeamForm(ModelForm):$/;"	c
+PageForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class PageForm(ModelForm):$/;"	c
+Phone	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    Phone = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_address
+PortFolioMenuDatas	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class PortFolioMenuDatas(models.Model):$/;"	c
+PortFolioMenuDatasForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class PortFolioMenuDatasForm(ModelForm):$/;"	c
+PortFolioMenus	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class PortFolioMenus(models.Model):$/;"	c
+PortFolioMenusForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class PortFolioMenusForm(ModelForm):$/;"	c
+REST_FRAMEWORK	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^REST_FRAMEWORK = {$/;"	v
+REST_FRAMEWORK	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^REST_FRAMEWORK = {$/;"	v
+ROOT_URLCONF	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^ROOT_URLCONF = 'spacmsnew.urls'$/;"	v
+ROOT_URLCONF	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^ROOT_URLCONF = 'spacmsnew.urls'$/;"	v
+Redirect	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^from django.contrib.redirects.models import Redirect$/;"	i
+RedirectForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class RedirectForm(ModelForm):$/;"	c
+SECRET_KEY	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^SECRET_KEY = 'd@ug$iu5r(mko&i8sg%k@c5b5hft9s+7y)%r(hu0$%#l%d5so)'$/;"	v
+SECRET_KEY	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^SECRET_KEY = 'd@ug$iu5r(mko&i8sg%k@c5b5hft9s+7y)%r(hu0$%#l%d5so)'$/;"	v
+SITE_ID	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^SITE_ID = 1$/;"	v
+SITE_ID	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^SITE_ID = 1$/;"	v
+STATICFILES_DIRS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_DIRS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_FINDERS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATIC_ROOT	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^STATIC_ROOT = ''$/;"	v
+STATIC_ROOT	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'staticRoot')$/;"	v
+STATIC_URL	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATIC_URL	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+SectionSteps	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class SectionSteps(models.Model):$/;"	c
+SectionStepsForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class SectionStepsForm(ModelForm):$/;"	c
+ServiceData	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class ServiceData(models.Model):$/;"	c
+ServiceDataForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class ServiceDataForm(ModelForm):$/;"	c
+ServiceSection	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class ServiceSection(models.Model):$/;"	c
+ServiceSectionForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class ServiceSectionForm(ModelForm):$/;"	c
+Site	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^from django.contrib.sites.models import Site$/;"	i
+SiteForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class SiteForm(ModelForm):$/;"	c
+SliderdataForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class SliderdataForm(ModelForm):$/;"	c
+SubmenuForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class SubmenuForm(ModelForm):$/;"	c
+Submit	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^from crispy_forms.layout import Submit$/;"	i
+TEMPLATES	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATES	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^TEMPLATES = [$/;"	v
+TEMPLATE_DIRS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates\/')]$/;"	v
+TEMPLATE_DIRS	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates\/')]$/;"	v
+TIME_ZONE	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TIME_ZONE	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TestCase	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/tests.py	/^from django.test import TestCase$/;"	i
+TestCase	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/login/tests.py	/^from django.test import TestCase$/;"	i
+TestCase	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/tests.py	/^from django.test import TestCase$/;"	i
+Testimonial	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class Testimonial(models.Model):$/;"	c
+TestimonialForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class TestimonialForm(ModelForm):$/;"	c
+Testimonials	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class Testimonials(models.Model):$/;"	c
+TestimonialsForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class TestimonialsForm(ModelForm):$/;"	c
+ThemeForm	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^class ThemeForm(ModelForm):$/;"	c
+USE_I18N	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^USE_I18N = True$/;"	v
+USE_I18N	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^USE_L10N = True$/;"	v
+USE_L10N	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^USE_TZ = True$/;"	v
+USE_TZ	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^WSGI_APPLICATION = 'spacmsnew.wsgi.application'$/;"	v
+WSGI_APPLICATION	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^WSGI_APPLICATION = 'spacmsnew.wsgi.application'$/;"	v
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:AnalyticsForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:BlogForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:BlogSectionForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:ContactUsForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:FooteraddressForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:FooterdataForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:LogoForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:MainmenuForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:MetatagsForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:OurTeamForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:PageForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:PortFolioMenuDatasForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:PortFolioMenusForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:RedirectForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:SectionStepsForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:ServiceDataForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:ServiceSectionForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:SiteForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:SliderdataForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:SubmenuForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:TestimonialForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:TestimonialsForm
+__init__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:ThemeForm
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:Blog	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:BlogSection	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:ContactDetails	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:ContactUs	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:Meta_tags	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:OurTeam	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:PortFolioMenuDatas	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:PortFolioMenus	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:SectionSteps	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:ServiceData	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:ServiceSection	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:Testimonial	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:Testimonials	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:footer_address	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:footer_data	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:logos	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:mainmenu	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:pages	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:slider_data	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:submenu	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    def __unicode__(self):$/;"	m	class:theme	file:
+__unicode__	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/models.py	/^    def __unicode__(self):$/;"	m	class:analytics_id	file:
+about_data	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    about_data = models.TextField()$/;"	v	class:footer_data
+about_us	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    about_us = models.TextField(max_length=512, blank=True, null=True)$/;"	v	class:Blog
+addPage	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def addPage(request):$/;"	f
+add_blog	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_blog(request, id):$/;"	f
+add_footeraddress	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_footeraddress(request):$/;"	f
+add_footerdata	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_footerdata(request):$/;"	f
+add_logos	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_logos(request, id):$/;"	f
+add_meta_tag	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_meta_tag(request, id):$/;"	f
+add_our_team	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_our_team(request, id):$/;"	f
+add_section_steps_data	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_section_steps_data(request):$/;"	f
+add_section_steps_data1	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_section_steps_data1(request):$/;"	f
+add_service_data	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_service_data(request, id):$/;"	f
+add_sliderdata	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_sliderdata(request):$/;"	f
+add_sub_menu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_sub_menu(request, id):$/;"	f
+add_testimonials	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_testimonials(request, id):$/;"	f
+add_theme	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def add_theme(request):$/;"	f
+addmenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def addmenu(request, id):$/;"	f
+address	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    address = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:ContactUs
+address	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    address = models.TextField()$/;"	v	class:footer_address
+addwidgets	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def addwidgets(request):$/;"	f
+admin	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/admin.py	/^from django.contrib import admin$/;"	i
+admin	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/login/admin.py	/^from django.contrib import admin$/;"	i
+admin	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/urls.py	/^from django.contrib import admin$/;"	i
+admin	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/admin.py	/^from django.contrib import admin$/;"	i
+analytics_id	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/models.py	/^    analytics_id = models.CharField(max_length=50, blank=True,null=True)$/;"	v	class:analytics_id
+analytics_id	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/models.py	/^class analytics_id(models.Model):$/;"	c
+application	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/wsgi.py	/^application = get_wsgi_application()$/;"	v
+auth_login	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/login/views.py	/^from django.contrib.auth import login as auth_login$/;"	i
+authenticate	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/login/views.py	/^from django.contrib.auth import authenticate$/;"	i
+bck_btn_txt	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_btn_txt = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+bck_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_img = models.ImageField($/;"	v	class:BlogSection
+bck_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_img = models.ImageField($/;"	v	class:SectionSteps
+bck_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_img = models.ImageField($/;"	v	class:Testimonial
+bck_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_img = models.ImageField(upload_to=slider_image, blank=True, null=True)$/;"	v	class:slider_data
+bck_name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_name = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+bck_title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_title = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+bck_title2	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_title2 = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+bck_title3	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_title3 = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+bck_title4	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_title4 = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+bck_title5	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_title5 = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+bck_title6	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_title6 = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+bck_title7	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    bck_title7 = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:slider_data
+blog_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    blog_image = models.ImageField(upload_to=blog_img, blank=True, null=True)$/;"	v	class:Blog
+blog_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def blog_image(self, filename):$/;"	f
+blog_image_text	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    blog_image_text = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:Blog
+blog_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def blog_img(self, filename):$/;"	f
+blog_img_bg	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def blog_img_bg(self, filename):$/;"	f
+blog_page_background_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    blog_page_background_image = models.ImageField(upload_to=blog_img_bg, blank=True, null=True)$/;"	v	class:Blog
+blog_section	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def blog_section(request):$/;"	f
+blog_slug	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    blog_slug = models.SlugField(unique=True, null=True)$/;"	v	class:Blog
+blogs_view	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/views.py	/^def blogs_view(request, blog_slug):$/;"	f
+comment	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    comment = models.TextField(max_length=500, blank=True,  null=True)$/;"	v	class:Testimonials
+contact_report	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def contact_report(request):$/;"	f
+contactdata	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def contactdata(request):$/;"	f
+contactus	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def contactus(request):$/;"	f
+content	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    content = models.TextField()$/;"	v	class:pages
+content	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    content = models.TextField(max_length=512, blank=True, null=True)$/;"	v	class:Blog
+copyright	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    copyright = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_data
+csrf_exempt	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from django.views.decorators.csrf import csrf_exempt$/;"	i
+customer_name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    customer_name = models.CharField(max_length=50, blank=True, null=True)$/;"	v	class:Testimonials
+dashboard	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def dashboard(request):$/;"	f
+date	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    date = models.CharField(max_length=8, blank=True, null=True)$/;"	v	class:Blog
+default_permissions	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^        default_permissions = ()$/;"	v	class:footer_address.meta
+default_permissions	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^        default_permissions = ()$/;"	v	class:footer_data.meta
+default_permissions	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^        default_permissions = ()$/;"	v	class:mainmenu.meta
+default_permissions	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^        default_permissions = ()$/;"	v	class:slider_data.meta
+default_permissions	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^        default_permissions = ()$/;"	v	class:submenu.meta
+default_permissions	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^        default_permissions = ()$/;"	v	class:theme.meta
+default_permissions	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/models.py	/^        default_permissions = ()$/;"	v	class:analytics_id.meta
+deleteblog	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deleteblog(request):$/;"	f
+deletelogo	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deletelogo(request):$/;"	f
+deletemenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deletemenu(request):$/;"	f
+deletemetatag	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deletemetatag(request):$/;"	f
+deleteportfoliodata	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deleteportfoliodata(request):$/;"	f
+deleteportfoliomenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deleteportfoliomenu(request):$/;"	f
+deleteservicedata	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deleteservicedata(request):$/;"	f
+deletesponsor	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deletesponsor(request):$/;"	f
+deletesubmenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deletesubmenu(request):$/;"	f
+deletetestimonial	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def deletetestimonial(request):$/;"	f
+description	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    description = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:OurTeam
+description	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    description = models.TextField(max_length=512, blank=True, null=True)$/;"	v	class:PortFolioMenuDatas
+designation	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    designation = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:OurTeam
+dribble	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    dribble = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_data
+email	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    email = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_address
+email	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    email = models.CharField(max_length=32, blank=True, null=True)$/;"	v	class:ContactUs
+email	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    email = models.CharField(max_length=64, blank=True, null=True)$/;"	v	class:ContactDetails
+execute_from_command_line	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/manage.py	/^    from django.core.management import execute_from_command_line$/;"	i
+facebook	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    facebook = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_data
+facebook	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    facebook = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:OurTeam
+fax	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    fax = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_address
+fax	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    fax = models.CharField(max_length=24, blank=True, null=True)$/;"	v	class:ContactUs
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:AnalyticsForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:BlogForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:BlogSectionForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:ContactUsForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:FooteraddressForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:FooterdataForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:LogoForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:MainmenuForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:MetatagsForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:OurTeamForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:PageForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:PortFolioMenuDatasForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:RedirectForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:SectionStepsForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:ServiceSectionForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:SiteForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:SliderdataForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:SubmenuForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:TestimonialForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:TestimonialsForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = '__all__'$/;"	v	class:ThemeForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = [$/;"	v	class:PortFolioMenusForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        fields = [$/;"	v	class:ServiceDataForm.Meta
+fields	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/serializers.py	/^        fields = '__all__' $/;"	v	class:ContactSerializer.Meta
+footer_address	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class footer_address(models.Model):$/;"	c
+footer_data	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class footer_data(models.Model):$/;"	c
+get_current_site	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^from django.contrib.sites.shortcuts import get_current_site$/;"	i
+get_current_site	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from django.contrib.sites.shortcuts import get_current_site$/;"	i
+get_queryset	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^    def get_queryset(self, *args, **kwargs):$/;"	m	class:ContactSerializerView
+get_wsgi_application	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+gettheme	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def gettheme(request):$/;"	f
+google	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    google = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_data
+google	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    google = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:OurTeam
+heading	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    heading = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:SectionSteps
+home	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/views.py	/^def home(request):$/;"	f
+image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    image = models.ImageField(upload_to=logos_img, blank=True, null=True)$/;"	v	class:logos
+image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    image = models.ImageField(upload_to=our_team_img, blank=True, null=True)$/;"	v	class:OurTeam
+image_text	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    image_text = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:logos
+image_text	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    image_text = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:OurTeam
+include	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/urls.py	/^from django.conf.urls import include, url$/;"	i
+include	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/urls.py	/^from django.conf.urls import include, url$/;"	i
+index	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    index = models.IntegerField(null=True, blank=True)$/;"	v	class:mainmenu
+init	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/templates/common/base.html	/^function init() {$/;"	f
+iterate_widgets	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/templatetags/extras.py	/^def iterate_widgets(widget_set):$/;"	f
+json	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^import json$/;"	i
+labels	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        labels = {$/;"	v	class:BlogForm.Meta
+labels	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        labels = {$/;"	v	class:BlogSectionForm.Meta
+labels	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        labels = {$/;"	v	class:ContactUsForm.Meta
+labels	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        labels = {$/;"	v	class:MainmenuForm.Meta
+labels	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        labels = {$/;"	v	class:MetatagsForm.Meta
+labels	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        labels = {$/;"	v	class:SliderdataForm.Meta
+labels	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        labels = {$/;"	v	class:TestimonialForm.Meta
+lattitude	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    lattitude = models.CharField(max_length=24, blank=True, null=True)$/;"	v	class:ContactUs
+link	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    link = models.CharField(max_length=100)$/;"	v	class:mainmenu
+link	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    link = models.CharField(max_length=100)$/;"	v	class:submenu
+login	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/login/views.py	/^def login(request):$/;"	f
+login_required	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from django.contrib.auth.decorators import login_required$/;"	i
+logo	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    logo = models.ImageField(upload_to=logoUploader, blank=True, null=True)$/;"	v	class:theme
+logoUploader	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def logoUploader(self, filename):$/;"	f
+logo_text	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    logo_text = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:theme
+logos	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class logos(models.Model):$/;"	c
+logos_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def logos_img(self, filename):$/;"	f
+longitude	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    longitude = models.CharField(max_length=24, blank=True, null=True)$/;"	v	class:ContactUs
+mainmenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    mainmenu = models.ForeignKey(mainmenu)$/;"	v	class:submenu
+mainmenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class mainmenu(models.Model):$/;"	c
+mainmenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/views.py	/^from frontend.models import mainmenu$/;"	i
+menu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    menu = models.CharField(max_length=50, blank=True, null=True)$/;"	v	class:PortFolioMenus
+menu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    menu = models.ForeignKey(PortFolioMenus, blank=True, null=True)$/;"	v	class:PortFolioMenuDatas
+message	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    message = models.CharField(max_length=210, blank=True, null=True)$/;"	v	class:ContactDetails
+messages	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from django.contrib import messages$/;"	i
+meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    class meta:$/;"	c	class:footer_address
+meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    class meta:$/;"	c	class:footer_data
+meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    class meta:$/;"	c	class:mainmenu
+meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    class meta:$/;"	c	class:slider_data
+meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    class meta:$/;"	c	class:submenu
+meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    class meta:$/;"	c	class:theme
+meta	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/models.py	/^    class meta:$/;"	c	class:analytics_id
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = Blog$/;"	v	class:BlogForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = BlogSection$/;"	v	class:BlogSectionForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = ContactUs$/;"	v	class:ContactUsForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = Meta_tags$/;"	v	class:MetatagsForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = OurTeam$/;"	v	class:OurTeamForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = PortFolioMenuDatas$/;"	v	class:PortFolioMenuDatasForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = PortFolioMenus$/;"	v	class:PortFolioMenusForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = Redirect$/;"	v	class:RedirectForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = SectionSteps$/;"	v	class:SectionStepsForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = ServiceData$/;"	v	class:ServiceDataForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = ServiceSection$/;"	v	class:ServiceSectionForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = Site$/;"	v	class:SiteForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = Testimonial$/;"	v	class:TestimonialForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = Testimonials$/;"	v	class:TestimonialsForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = analytics_id$/;"	v	class:AnalyticsForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = footer_address$/;"	v	class:FooteraddressForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = footer_data$/;"	v	class:FooterdataForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = logos$/;"	v	class:LogoForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = mainmenu$/;"	v	class:MainmenuForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = pages$/;"	v	class:PageForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = slider_data$/;"	v	class:SliderdataForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = submenu$/;"	v	class:SubmenuForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/forms.py	/^        model = theme$/;"	v	class:ThemeForm.Meta
+model	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/serializers.py	/^        model = ContactDetails$/;"	v	class:ContactSerializer.Meta
+models	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^from django.db import models$/;"	i
+models	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/login/models.py	/^from django.db import models$/;"	i
+models	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/models.py	/^from django.db import models$/;"	i
+month	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    month = models.CharField(max_length=8, blank=True, null=True)$/;"	v	class:Blog
+name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    name = models.CharField(max_length=100)$/;"	v	class:mainmenu
+name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    name = models.CharField(max_length=100)$/;"	v	class:submenu
+name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    name = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:ContactDetails
+name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    name = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:logos
+name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    name = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:OurTeam
+name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/urls.py	/^            name='add_section_steps_data'),$/;"	v
+open_time	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    open_time = models.CharField(max_length=24, blank=True, null=True)$/;"	v	class:ContactUs
+os	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/manage.py	/^import os$/;"	i
+os	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/my_settings.py	/^import os$/;"	i
+os	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/settings.py	/^import os$/;"	i
+os	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/wsgi.py	/^import os$/;"	i
+our_team_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def our_team_img(self, filename):$/;"	f
+page	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/views.py	/^def page(request):$/;"	f
+page_description	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    page_description = models.TextField(blank=True, null=True)$/;"	v	class:ServiceData
+page_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    page_image = models.ImageField(upload_to=page_image, blank=True, null=True)$/;"	v	class:pages
+page_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    page_image = models.ImageField(upload_to=service_page_image, blank=True, null=True)$/;"	v	class:ServiceData
+page_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def page_image(self, filename):$/;"	f
+page_image_text	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    page_image_text = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:ServiceData
+page_size	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^    page_size = 12$/;"	v	class:ContactPageNumberClass
+page_title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    page_title = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:ServiceData
+page_title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    page_title = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:pages
+pages	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class pages(models.Model):$/;"	c
+pagination_class	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^    pagination_class = ContactPageNumberClass$/;"	v	class:ContactSerializerView
+phone	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    phone = models.CharField(max_length=16, blank=True, null=True)$/;"	v	class:ContactDetails
+phone	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    phone = models.CharField(max_length=16, blank=True, null=True)$/;"	v	class:ContactUs
+portfolio_menu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def portfolio_menu(request, id):$/;"	f
+portfolio_menu_datas	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def portfolio_menu_datas(request, id):$/;"	f
+project_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    project_image = models.ImageField($/;"	v	class:PortFolioMenuDatas
+project_image_text	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    project_image_text = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:PortFolioMenuDatas
+project_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def project_img(self, filename):$/;"	f
+project_name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    project_name = models.CharField(max_length=50, blank=True, null=True)$/;"	v	class:PortFolioMenuDatas
+project_views	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/views.py	/^def project_views(request, slug):$/;"	f
+register	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/templatetags/extras.py	/^register = template.Library()$/;"	v
+render	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/views.py	/^from django.shortcuts import render$/;"	i
+render	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/login/views.py	/^from django.shortcuts import render$/;"	i
+render	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from django.shortcuts import render$/;"	i
+rss	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    rss = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_data
+saveredirects	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def saveredirects(request):$/;"	f
+savesite	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def savesite(request):$/;"	f
+section_name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    section_name = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:ServiceSection
+sectionsteps_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def sectionsteps_image(self, filename):$/;"	f
+send_mail	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^from django.core.mail import send_mail$/;"	i
+sends_mail	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def sends_mail(request):$/;"	f
+serializer_class	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^    serializer_class = ContactSerializer$/;"	v	class:ContactSerializerView
+service	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    service = models.ForeignKey(ServiceSection, blank=True, null=True)$/;"	v	class:ServiceData
+service_bg_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def service_bg_img(self, filename):$/;"	f
+service_data	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    service_data = models.CharField(max_length=300, blank=True, null=True)$/;"	v	class:ServiceData
+service_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    service_image = models.ImageField(upload_to=service_img, blank=True, null=True)$/;"	v	class:ServiceData
+service_image_text	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    service_image_text = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:ServiceData
+service_img	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def service_img(self, filename):$/;"	f
+service_page_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def service_page_image(self, filename):$/;"	f
+service_section	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def service_section(request):$/;"	f
+services	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/views.py	/^def services(request, slug):$/;"	f
+settings	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/urls.py	/^from django.conf import settings$/;"	i
+skype	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    skype = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_data
+skype	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    skype = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:OurTeam
+slider_data	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class slider_data(models.Model):$/;"	c
+slider_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def slider_image(self, filename):$/;"	f
+slug	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    slug = models.SlugField(unique=True, null=True)$/;"	v	class:PortFolioMenuDatas
+slug	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    slug = models.SlugField(unique=True, null=True)$/;"	v	class:ServiceData
+static	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/urls.py	/^from django.conf.urls.static import static$/;"	i
+stringfilter	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/templatetags/extras.py	/^from django.template.defaultfilters import stringfilter$/;"	i
+sub_title_head	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    sub_title_head = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:ServiceData
+sub_title_head_sub	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    sub_title_head_sub = models.CharField($/;"	v	class:ServiceData
+submenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class submenu(models.Model):$/;"	c
+submenu	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/views.py	/^from frontend.models import submenu$/;"	i
+sys	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/manage.py	/^import sys$/;"	i
+tag_content	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    tag_content = models.CharField(max_length=200, blank=True, null=True)$/;"	v	class:Meta_tags
+tag_name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    tag_name = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:Meta_tags
+template	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/templatetags/extras.py	/^from django import template$/;"	i
+testimonial_image	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^def testimonial_image(self, filename):$/;"	f
+testimonial_section	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/views.py	/^def testimonial_section(request):$/;"	f
+theme	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^class theme(models.Model):$/;"	c
+theme_name	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    theme_name = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:theme
+title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:ServiceSection
+title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:pages
+title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:theme
+title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title = models.CharField(max_length=50, blank=True, null=True)$/;"	v	class:Blog
+title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title = models.CharField(max_length=50, blank=True, null=True)$/;"	v	class:BlogSection
+title	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title = models.CharField(max_length=50, blank=True, null=True)$/;"	v	class:Testimonial
+title1	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title1 = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:SectionSteps
+title2	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title2 = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:SectionSteps
+title3	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title3 = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:SectionSteps
+title4	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title4 = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:SectionSteps
+title_data1	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title_data1 = models.CharField(max_length=220, blank=True, null=True)$/;"	v	class:SectionSteps
+title_data2	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title_data2 = models.CharField(max_length=220, blank=True, null=True)$/;"	v	class:SectionSteps
+title_data3	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title_data3 = models.CharField(max_length=220, blank=True, null=True)$/;"	v	class:SectionSteps
+title_data4	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    title_data4 = models.CharField(max_length=220, blank=True, null=True)$/;"	v	class:SectionSteps
+twitter	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    twitter = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_data
+twitter	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    twitter = models.CharField(max_length=120, blank=True, null=True)$/;"	v	class:OurTeam
+url	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/urls.py	/^from django.conf.urls import include, url$/;"	i
+url	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/urls.py	/^from django.conf.urls import include, url$/;"	i
+urlpatterns	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/spacmsnew/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/superadmin/urls.py	/^urlpatterns = [$/;"	v
+web	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    web = models.CharField(max_length=100, blank=True, null=True)$/;"	v	class:footer_address
+web	/home/anoop/Works/SpacmsNew_Venv/spacmsnew/frontend/models.py	/^    web = models.CharField(max_length=24, blank=True, null=True)$/;"	v	class:ContactUs

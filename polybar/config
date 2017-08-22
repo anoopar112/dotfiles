@@ -1,0 +1,327 @@
+[bar/top]
+width = 100%
+height = 22
+offset-x = 0
+offset-y = 0 
+;bottom = true
+monitor = LVDS1
+monitor-strict = false
+
+background = #262626
+foreground = #eee
+
+underline-size = 0
+underline-color = #eee
+
+spacing = 1
+padding-left = 0
+padding-right = 0
+padding-top = 8
+
+module-margin-left = 0 
+module-margin-right = 0
+
+font-0 = Roboto Mono for Powerline:pixelsize=9;0
+font-1 = FontAwesome:size=7;0
+font-2 = siji:pixelsize=7;0
+
+modules-left = bspwm cmus-control-prev cmus-control-next  cmus
+modules-center =
+modules-right = music battery backlight temperature wired-network wireless-network  volume date
+
+tray-position = right
+tray-padding = 2
+tray-transparent = false
+
+wm-restack = bspwm
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+; MODULES
+
+[module/bspwm]
+type = internal/bspwm
+
+ws-icon-0 = web;
+ws-icon-1 = term;
+ws-icon-2 = chat;
+ws-icon-3 = code;
+ws-icon-4 = music;
+ws-icon-default = 
+
+format = <label-state><label-mode>
+
+label-focused = %icon%
+label-focused-background = #4FC3F7
+label-focused-foreground = #262626
+label-focused-padding = 1
+
+label-occupied = %icon%
+label-occupied-foreground = #00E676
+label-occupied-padding = 1
+
+label-urgent = %icon%
+label-urgent-foreground = #D81B60
+label-urgent-padding = 1
+
+label-empty = %icon%
+label-empty-foreground = #44ffffff
+label-empty-padding = 1
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:120:...%
+label-maxlen = 30
+label-padding = 1
+
+[module/date]
+type = internal/date
+interval = 1.0
+date = %a %b %d, 
+time = %I:%M:%S %p
+date-alt = %A, %d %B %Y
+time-alt = %H:%M:%S
+
+label = %date% %time%
+format = <label>
+format-padding = 1
+label-foreground = #1DE9B6
+
+[module/padding]
+type = custom/text
+content = 	 
+content-foreground = #00000000
+content-background = #55000000
+
+[module/battery]
+type = internal/battery
+full-at = 99
+battery = BAT0
+adapter = AC0
+poll-interval = 5
+format-charging = <animation-charging><label-charging>
+format-discharging = <ramp-capacity><label-discharging>
+format-full = <ramp-capacity><label-full>
+label-charging = %percentage%
+label-discharging = %percentage%
+label-full = %percentage%
+
+label-charging-foreground = #40C4FF
+label-discharging-foreground = #FF5722
+label-full-foreground = #4CAF50
+
+format-charging-padding = 1
+format-discharging-padding = 1
+format-full-padding = 1
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+ramp-capacity-0-foreground = #f44336
+ramp-capacity-1-foreground = #FF5722
+ramp-capacity-2-foreground = #FFC107
+ramp-capacity-3-foreground = #CDDC39
+ramp-capacity-4-foreground = #4CAF50
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-framerate = 750
+
+animation-charging-0-foreground = #f44336
+animation-charging-1-foreground = #FF5722
+animation-charging-2-foreground = #FFC107
+animation-charging-3-foreground = #CDDC39
+animation-charging-4-foreground = #4CAF50
+
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
+enable-scroll = true
+format = <ramp><label>
+format-padding = 1
+label = %percentage%
+
+ramp-0 = 🌕
+ramp-1 = 🌔
+ramp-2 = 🌓
+ramp-3 = 🌒
+ramp-4 = 🌑
+
+ramp-0-foreground = #FFF176
+ramp-1-foreground = #FFEE58
+ramp-2-foreground = #FFEB3B
+ramp-3-foreground = #FFEB3B
+ramp-4-foreground = #FFFF00
+
+[module/volume]
+type = internal/volume
+format-volume = <ramp-volume><label-volume>
+format-muted = <label-muted>
+label-volume = %percentage%
+label-muted =  muted
+label-muted-foreground = #aaa
+format-volume-padding = 1
+format-muted-padding = 1
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-headphones-0 = 
+
+
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp><label>
+format-warn = <ramp><label-warn>
+format-padding = 1
+format-warn-padding = 1
+
+label = %temperature%
+label-warn = %temperature%
+label-warn-foreground = #EA444E
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+
+ramp-0-foreground = #4CAF50
+ramp-1-foreground = #FFC107
+ramp-2-foreground = #d50000
+
+[module/wired-network]
+type = internal/network
+interface = enp3s0f2
+
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+format-packetloss = <label-packetloss>
+
+format-connected-padding = 1
+format-disconnected-padding = 1
+format-packetloss-padding = 1
+
+label-connected =  %downspeed:9%
+label-connected-foreground = #00E676
+label-disconnected = 
+label-disconnected-foreground = #ff1744
+
+label-packetloss = 
+label-packetloss-foreground = #8E24AA
+
+
+[module/wireless-network]
+type = internal/network
+interface = wlp2s0
+
+format-connected = <ramp-signal><label-connected>
+format-disconnected = <label-disconnected>
+format-packetloss = <label-packetloss>
+
+format-connected-padding = 1
+format-disconnected-padding = 1
+format-packetloss-padding = 1
+
+label-connected = %downspeed:9%
+label-connected-foreground = #00E676
+label-disconnected = 
+label-disconnected-foreground = #ff1744
+
+label-packetloss = 
+label-packetloss-foreground = #8E24AA
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-5 = 
+
+ramp-signal-0-foreground = #e53935
+ramp-signal-1-foreground = #FF5722
+ramp-signal-2-foreground = #FF9800
+ramp-signal-3-foreground = #FFEB3B
+ramp-signal-4-foreground = #8BC34A
+ramp-signal-5-foreground = #4CAF50
+
+[module/music]
+type = custom/script
+interval = 2
+
+label = %output:0:45:...%
+exec = ~/.config/polybar/mpris.sh
+
+[module/cmus]
+type = custom/script
+exec = ~/.config/polybar/cmus.sh
+exec-if = pgrep -x cmus
+interval = 1
+
+click-left = cmus-remote --pause
+click-right = cmus-remote --stop
+label-foreground = #FF5722
+
+[module/cmus-control-prev]
+type = custom/script
+label = 
+exec = ~/.config/polybar/cmus-control.sh
+exec-if = pgrep -x cmus
+label-foreground = #1DE9B6
+click-left = cmus-remote --prev
+label-padding=1
+
+[module/cmus-control-next]
+type = custom/script
+label = 
+exec = ~/.config/polybar/cmus-control.sh
+exec-if = pgrep -x cmus
+label-foreground = #1DE9B6
+click-left = cmus-remote --next
+label-padding=1
+; ------------------------------------------------------- Second Bar -------------------------------------
+[bar/top2]
+width = 100%
+height = 22
+offset-x = 0
+offset-y = 0 
+monitor = VGA1
+monitor-strict = false
+
+background = #262626
+foreground = #eee
+
+underline-size = 2
+underline-color = #eee
+
+spacing = 1
+padding-left = 0
+padding-right = 0
+padding-top = 8
+
+module-margin-left = 0 
+module-margin-right = 0
+
+font-0 = Roboto Mono for Powerline:pixelsize=9;0
+font-1 = FontAwesome:size=7;0
+font-2 = siji:pixelsize=7;0
+
+modules-left = bspwm xwindow
+modules-center = 
+modules-right = date
+
+
+wm-restack = bspwm
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+

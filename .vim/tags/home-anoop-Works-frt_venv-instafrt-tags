@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AppConfig	/home/anoop/Works/frt_venv/instafrt/webapp/apps.py	/^from django.apps import AppConfig$/;"	i
+BASE_DIR	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+DATABASES	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^DATABASES = {$/;"	v
+DEBUG	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^DEBUG = True$/;"	v
+INSTALLED_APPS	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^MIDDLEWARE = [$/;"	v
+ROOT_URLCONF	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^ROOT_URLCONF = 'instafrt.urls'$/;"	v
+STATIC_URL	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TestCase	/home/anoop/Works/frt_venv/instafrt/webapp/tests.py	/^from django.test import TestCase$/;"	i
+USE_I18N	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^WSGI_APPLICATION = 'instafrt.wsgi.application'$/;"	v
+WebappConfig	/home/anoop/Works/frt_venv/instafrt/webapp/apps.py	/^class WebappConfig(AppConfig):$/;"	c
+admin	/home/anoop/Works/frt_venv/instafrt/instafrt/urls.py	/^from django.contrib import admin$/;"	i
+admin	/home/anoop/Works/frt_venv/instafrt/webapp/admin.py	/^from django.contrib import admin$/;"	i
+application	/home/anoop/Works/frt_venv/instafrt/instafrt/wsgi.py	/^application = get_wsgi_application()$/;"	v
+django	/home/anoop/Works/frt_venv/instafrt/manage.py	/^            import django$/;"	i
+execute_from_command_line	/home/anoop/Works/frt_venv/instafrt/manage.py	/^        from django.core.management import execute_from_command_line$/;"	i
+get_wsgi_application	/home/anoop/Works/frt_venv/instafrt/instafrt/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+models	/home/anoop/Works/frt_venv/instafrt/webapp/models.py	/^from django.db import models$/;"	i
+name	/home/anoop/Works/frt_venv/instafrt/webapp/apps.py	/^    name = 'webapp'$/;"	v	class:WebappConfig
+os	/home/anoop/Works/frt_venv/instafrt/instafrt/settings.py	/^import os$/;"	i
+os	/home/anoop/Works/frt_venv/instafrt/instafrt/wsgi.py	/^import os$/;"	i
+os	/home/anoop/Works/frt_venv/instafrt/manage.py	/^import os$/;"	i
+render	/home/anoop/Works/frt_venv/instafrt/webapp/views.py	/^from django.shortcuts import render$/;"	i
+sys	/home/anoop/Works/frt_venv/instafrt/manage.py	/^import sys$/;"	i
+url	/home/anoop/Works/frt_venv/instafrt/instafrt/urls.py	/^from django.conf.urls import url$/;"	i
+urlpatterns	/home/anoop/Works/frt_venv/instafrt/instafrt/urls.py	/^urlpatterns = [$/;"	v

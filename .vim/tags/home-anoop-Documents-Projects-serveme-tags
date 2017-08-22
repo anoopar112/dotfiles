@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$and	/home/anoop/Documents/Projects/serveme/provider.js	/^			query = {$and : [$/;"	p	class:query
+$or	/home/anoop/Documents/Projects/serveme/provider.js	/^		var query =  { provider_type: provider_type, $or: [ { status: "0"  }, { status: "1" } ]}$/;"	p	class:var.query
+$or	/home/anoop/Documents/Projects/serveme/provider.js	/^		var query =  {$or: [ { status: "0"  }, { status: "1" } ]}$/;"	p	class:module.exports.filtering_query.query
+AmountToBePaid	/home/anoop/Documents/Projects/serveme/customer.js	/^	function AmountToBePaid(payments, total_manhours, bid_amount ,flat){$/;"	f	function:module.exports
+AmountToBePaid	/home/anoop/Documents/Projects/serveme/provider.js	/^	function AmountToBePaid(payments, total_manhours, bid_amount ,flat){$/;"	f
+AmountToBePaid	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function AmountToBePaid(payments, total_manhours, bid_amount, flat) {$/;"	f
+DecimalHoursToTimeFormat	/home/anoop/Documents/Projects/serveme/customer.js	/^	function DecimalHoursToTimeFormat(decimalTimeString){$/;"	f
+DecimalHoursToTimeFormat	/home/anoop/Documents/Projects/serveme/provider.js	/^function DecimalHoursToTimeFormat(decimalTimeString){$/;"	f
+DecimalHoursToTimeFormat	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function DecimalHoursToTimeFormat(decimalTimeString) {$/;"	f
+DecimalHoursToTimeFormat	/home/anoop/Documents/Projects/serveme/technician.js	/^    function DecimalHoursToTimeFormat(decimalTimeString){$/;"	f
+FCM	/home/anoop/Documents/Projects/serveme/server.js	/^var FCM = require('fcm-push');$/;"	v
+ObjectId	/home/anoop/Documents/Projects/serveme/server.js	/^var ObjectId = require('mongojs').ObjectID;$/;"	v
+PaymentDetails	/home/anoop/Documents/Projects/serveme/customer.js	/^	function PaymentDetails(payments, history, bid_amount , flat){$/;"	f
+PaymentDetails	/home/anoop/Documents/Projects/serveme/provider.js	/^	function PaymentDetails(payments, history, bid_amount , flat){$/;"	f
+PaymentDetails	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function PaymentDetails(payments, history, bid_amount, flat) {$/;"	f
+PaymentDetails	/home/anoop/Documents/Projects/serveme/technician.js	/^    function PaymentDetails(payments, history,bid_amount ,flat){$/;"	f	function:module.exports
+TotalManhours	/home/anoop/Documents/Projects/serveme/provider.js	/^function TotalManhours(history){$/;"	f
+TotalManhours	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function TotalManhours(history) {$/;"	f
+TotalManhours	/home/anoop/Documents/Projects/serveme/server.js	/^function TotalManhours(history){$/;"	f
+adminallaccountReport	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function adminallaccountReport(req, res, query, page, lmt) {$/;"	f
+adminalljobReport	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function adminalljobReport(req, res, querys, page, lmt) {$/;"	f
+adminallproductReport	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function adminallproductReport(req, res, querys, page, lmt){$/;"	f
+adminallproposalReport	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function adminallproposalReport(req, res, querys, types, page, lmt) {$/;"	f
+apnagent	/home/anoop/Documents/Projects/serveme/server.js	/^var apnagent = require('apnagent');$/;"	v
+app	/home/anoop/Documents/Projects/serveme/server.js	/^var app = express();$/;"	v
+appServer	/home/anoop/Documents/Projects/serveme/server.js	/^var appServer = http.Server(app);$/;"	v
+app_lookup	/home/anoop/Documents/Projects/serveme/server.js	/^var app_lookup = function (req, res, next) {$/;"	f
+arabicTranslation	/home/anoop/Documents/Projects/serveme/customer.js	/^	function arabicTranslation(text, jobid){$/;"	f	function:module.exports
+bid_accept_notification	/home/anoop/Documents/Projects/serveme/customer.js	/^	function bid_accept_notification(job, provider){$/;"	f	function:module.exports
+bid_notification	/home/anoop/Documents/Projects/serveme/provider.js	/^	function bid_notification(customer ,title, provider, job, amount){$/;"	f	function:module.exports
+bid_responsetimesave	/home/anoop/Documents/Projects/serveme/provider.js	/^	function bid_responsetimesave(bidid, job, time){$/;"	f	function:module.exports
+body	/home/anoop/Documents/Projects/serveme/server.js	/^                body: 'Job Request Arrived'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^                body: 'Your Job Request Submitted'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body:  job_title + ' Got A Proposal'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Advance Received For '+job_title $/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Job Request Received'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Payment Confirmation Requested By customer For ' + job_title$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Payment Received For '+job_title $/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Payment Successful By customer For ' + job_title$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Proposal Accepted By customer For ' + job_title$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Proposal Changed For '+job_title$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Technician Assigned For ' + job_title$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: 'Your Technician is '+ details.status + ' now' $/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: job_title + ' Paused'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: job_title + ' Request Rejected'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: job_title + ' Resumed'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: job_title + ' Started'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: job_title + ' Stopped'$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: job_title +'Job Is Cancelled '$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^            body: job_title +'Job is Expired '$/;"	p	class:fcm_notify
+body	/home/anoop/Documents/Projects/serveme/server.js	/^        body: description$/;"	p	class:fcm_notify
+bodyParser	/home/anoop/Documents/Projects/serveme/server.js	/^var bodyParser = require('body-parser');$/;"	v
+card_payment_notification	/home/anoop/Documents/Projects/serveme/general.js	/^    function card_payment_notification(jobid, amount, time){$/;"	f	function:module.exports
+cors	/home/anoop/Documents/Projects/serveme/server.js	/^var cors = require('cors');$/;"	v
+cron	/home/anoop/Documents/Projects/serveme/server.js	/^var cron = require('node-cron');$/;"	v
+customer	/home/anoop/Documents/Projects/serveme/server.js	/^var customer = require('.\/customer.js')(app, moment, multer, db, ObjectId, mailsend, path, fs, sendsms, mkdirp, send_notifications, io, shortid,TotalManhours,googleTranslate);$/;"	v
+customerJobRequestNotification	/home/anoop/Documents/Projects/serveme/customer.js	/^	function customerJobRequestNotification(jobid, customer_id, reference_id, title, location_address){$/;"	f	function:module.exports
+customer_ids	/home/anoop/Documents/Projects/serveme/provider.js	/^		var customer_ids = [];$/;"	v
+db	/home/anoop/Documents/Projects/serveme/server.js	/^var db = mongo('serveme', [$/;"	v
+decimal_roud	/home/anoop/Documents/Projects/serveme/provider.js	/^	function decimal_roud(num){$/;"	f
+deg2rad	/home/anoop/Documents/Projects/serveme/customer.js	/^	function deg2rad(deg) {$/;"	f
+deleteFiles	/home/anoop/Documents/Projects/serveme/customer.js	/^	function deleteFiles(files, callback){$/;"	f
+express	/home/anoop/Documents/Projects/serveme/server.js	/^var express = require('express');$/;"	v
+filtering_query	/home/anoop/Documents/Projects/serveme/provider.js	/^	function filtering_query(category, location, ctime, emergency){$/;"	f	function:module.exports
+filtering_query2	/home/anoop/Documents/Projects/serveme/provider.js	/^function filtering_query2(category, location, ctime, emergency, provider_type){$/;"	f
+from	/home/anoop/Documents/Projects/serveme/server.js	/^            from: 'siiana@infotica.com.qa', \/\/ sender address$/;"	p	class:sendMail.mailOptions
+fs	/home/anoop/Documents/Projects/serveme/server.js	/^var fs = require('fs');$/;"	v
+general	/home/anoop/Documents/Projects/serveme/server.js	/^var general = require('.\/general.js')(app, moment, multer, db, ObjectId, sha256, jwt, secret, path, fs, mkdirp, sendsms, sendMail, send_notifications);$/;"	v
+getDistanceFromLatLonInKm	/home/anoop/Documents/Projects/serveme/customer.js	/^	function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {$/;"	f
+getJobErning	/home/anoop/Documents/Projects/serveme/technician.js	/^    function getJobErning(jobid){$/;"	f	function:module.exports
+getJobexecTime	/home/anoop/Documents/Projects/serveme/technician.js	/^    function getJobexecTime(jobid){$/;"	f	function:module.exports
+googleTranslate	/home/anoop/Documents/Projects/serveme/server.js	/^var googleTranslate = require('google-translate')("AIzaSyDQWSiGM49llDghK3POqedsC3_ln1lkQPM");$/;"	v
+group	/home/anoop/Documents/Projects/serveme/customer.js	/^			query = {group: "provider", provider_type: "2"};$/;"	p	class:query
+group	/home/anoop/Documents/Projects/serveme/customer.js	/^			query = {group: "provider", provider_type: "3"};$/;"	p	class:query
+group	/home/anoop/Documents/Projects/serveme/customer.js	/^			query = {group: "provider"}$/;"	p	class:query
+http	/home/anoop/Documents/Projects/serveme/server.js	/^var http = require('http');$/;"	v
+io	/home/anoop/Documents/Projects/serveme/server.js	/^var io = require('socket.io').listen(server);$/;"	v
+jobReport	/home/anoop/Documents/Projects/serveme/provider.js	/^	function jobReport(req, res, query, page, lmt){$/;"	f
+job_cancel_notification	/home/anoop/Documents/Projects/serveme/customer.js	/^	function job_cancel_notification(jobid, time){$/;"	f
+job_pause_notification	/home/anoop/Documents/Projects/serveme/technician.js	/^    function job_pause_notification(jobid, techid, end, amount, type){$/;"	f	function:module.exports
+job_reject_notification	/home/anoop/Documents/Projects/serveme/technician.js	/^    function job_reject_notification(jobid, tech, reject_date){$/;"	f	function:module.exports
+job_request_notification	/home/anoop/Documents/Projects/serveme/customer.js	/^	function job_request_notification(jobid, title, location_address, provider_type, customerid){$/;"	f	function:module.exports
+job_request_notification	/home/anoop/Documents/Projects/serveme/provider.js	/^	function job_request_notification(jobid, techid){$/;"	f	function:module.exports
+job_resume_notification	/home/anoop/Documents/Projects/serveme/technician.js	/^    function job_resume_notification(jobid, tech, res_time){$/;"	f	function:module.exports
+job_start_notification	/home/anoop/Documents/Projects/serveme/technician.js	/^    function job_start_notification(jobid, tech, start_time){$/;"	f	function:module.exports
+job_stop_notification	/home/anoop/Documents/Projects/serveme/technician.js	/^    function job_stop_notification(jobid, end_time){$/;"	f	function:module.exports
+job_technician_accept_notification	/home/anoop/Documents/Projects/serveme/technician.js	/^    function job_technician_accept_notification(jobid, tech, accept_date){$/;"	f	function:module.exports
+join	/home/anoop/Documents/Projects/serveme/server.js	/^var join = require('path').join$/;"	v
+jwt	/home/anoop/Documents/Projects/serveme/server.js	/^var jwt = require('jsonwebtoken');$/;"	v
+last_payment_notification	/home/anoop/Documents/Projects/serveme/technician.js	/^    function last_payment_notification(jobid){$/;"	f	function:module.exports
+mailsend	/home/anoop/Documents/Projects/serveme/server.js	/^var mailsend = nodemailer.createTransport({$/;"	v
+mkdirp	/home/anoop/Documents/Projects/serveme/server.js	/^var mkdirp = require('mkdirp');$/;"	v
+module.exports	/home/anoop/Documents/Projects/serveme/customer.js	/^module.exports = function(app, moment, multer, db, ObjectId, mailsend, path, fs, sendsms, mkdirp, send_notifications, io,shortid,TotalManhours, googleTranslate){$/;"	f
+module.exports	/home/anoop/Documents/Projects/serveme/general.js	/^module.exports = function(app, moment, multer, db, ObjectId, sha256, jwt, secret, path, fs, mkdirp, sendsms,sendMail, send_notifications){$/;"	f
+module.exports	/home/anoop/Documents/Projects/serveme/payment.js	/^module.exports = function(app, path) {$/;"	f
+module.exports	/home/anoop/Documents/Projects/serveme/provider.js	/^module.exports = function(app, moment, db, ObjectId, multer, mkdirp, send_notifications, sha256, io){$/;"	f
+module.exports	/home/anoop/Documents/Projects/serveme/sadmin.js	/^module.exports = function (app, moment, multer, db, ObjectId, path, fs, mkdirp, sha256, special_notifications, io, googleTranslate) {$/;"	f
+module.exports	/home/anoop/Documents/Projects/serveme/technician.js	/^module.exports = function(app, moment, db, ObjectId, send_notifications, io, mailsend, TotalManhours){$/;"	f
+moment	/home/anoop/Documents/Projects/serveme/server.js	/^var moment = require("moment");$/;"	v
+mongo	/home/anoop/Documents/Projects/serveme/server.js	/^var mongo = require('mongojs');$/;"	v
+multer	/home/anoop/Documents/Projects/serveme/server.js	/^var multer = require('multer');$/;"	v
+onlineNotification	/home/anoop/Documents/Projects/serveme/technician.js	/^    function onlineNotification(techid, status){$/;"	f	function:module.exports
+path	/home/anoop/Documents/Projects/serveme/server.js	/^var path = require('path');$/;"	v
+payment	/home/anoop/Documents/Projects/serveme/server.js	/^var payment = require('.\/payment.js')(app, path);$/;"	v
+provider	/home/anoop/Documents/Projects/serveme/server.js	/^var provider = require('.\/provider.js')(app, moment, db, ObjectId, multer, mkdirp, send_notifications, sha256, io);$/;"	v
+provider_type	/home/anoop/Documents/Projects/serveme/customer.js	/^			query = {group: "provider", provider_type: "2"};$/;"	p	class:query
+provider_type	/home/anoop/Documents/Projects/serveme/customer.js	/^			query = {group: "provider", provider_type: "3"};$/;"	p	class:query
+provider_type	/home/anoop/Documents/Projects/serveme/provider.js	/^		var query =  { provider_type: provider_type, $or: [ { status: "0"  }, { status: "1" } ]}$/;"	p	class:var.query
+provider_type	/home/anoop/Documents/Projects/serveme/provider.js	/^		var query =  {provider_type: {$nin: ["3"]},$or: [ { status: "0"  }, { status: "1" } ]}$/;"	p	class:var.query
+pug	/home/anoop/Documents/Projects/serveme/server.js	/^var pug = require('pug');$/;"	v
+re_bid_notification	/home/anoop/Documents/Projects/serveme/provider.js	/^	function re_bid_notification(jobid, current_bid, new_bid, providerid){$/;"	f	function:module.exports
+request	/home/anoop/Documents/Projects/serveme/server.js	/^var request = require("request");$/;"	v
+round_amound	/home/anoop/Documents/Projects/serveme/provider.js	/^function round_amound(amount){$/;"	f
+round_amound	/home/anoop/Documents/Projects/serveme/sadmin.js	/^    function round_amound(amount) {$/;"	f
+round_amound	/home/anoop/Documents/Projects/serveme/technician.js	/^    function round_amound(amount){$/;"	f
+sadmin	/home/anoop/Documents/Projects/serveme/server.js	/^var sadmin = require('.\/sadmin.js')(app, moment, multer, db, ObjectId, path, fs, mkdirp, sha256, special_notifications, io, googleTranslate);$/;"	v
+secret	/home/anoop/Documents/Projects/serveme/server.js	/^var secret = "HAZE MAZE SLIME LAD HOLD CLAMMY";$/;"	v
+sendMail	/home/anoop/Documents/Projects/serveme/server.js	/^function sendMail(mail, subject, text){$/;"	f
+send_fcm	/home/anoop/Documents/Projects/serveme/server.js	/^var send_fcm = function(reg_id, fcm_notify){$/;"	f
+send_mail_invoice	/home/anoop/Documents/Projects/serveme/technician.js	/^    function send_mail_invoice(jobid, tech_name, email){$/;"	f	function:module.exports
+send_notifications	/home/anoop/Documents/Projects/serveme/server.js	/^var send_notifications = function(alert_type, doc, jobid, job_title, details){$/;"	f
+sendsms	/home/anoop/Documents/Projects/serveme/server.js	/^function sendsms(number, message){$/;"	f
+server	/home/anoop/Documents/Projects/serveme/server.js	/^var server = http.createServer().listen(4256);$/;"	v
+sha256	/home/anoop/Documents/Projects/serveme/server.js	/^var sha256 = require("sha256");$/;"	v
+shortid	/home/anoop/Documents/Projects/serveme/server.js	/^var shortid=require('js-shortid');$/;"	v
+special_notifications	/home/anoop/Documents/Projects/serveme/server.js	/^var special_notifications = function(doc, description, modes){$/;"	f
+subject	/home/anoop/Documents/Projects/serveme/server.js	/^            subject: subject, \/\/ Subject line$/;"	p	class:sendMail.mailOptions
+tech_ids	/home/anoop/Documents/Projects/serveme/provider.js	/^		var tech_ids = [];$/;"	v
+technician	/home/anoop/Documents/Projects/serveme/server.js	/^var technician = require('.\/technician.js')(app, moment, db, ObjectId, send_notifications, io, mailsend, TotalManhours);$/;"	v
+text	/home/anoop/Documents/Projects/serveme/server.js	/^            text: text \/\/, \/\/ plaintext body$/;"	p	class:sendMail.mailOptions
+title	/home/anoop/Documents/Projects/serveme/server.js	/^                title: 'Siiana',$/;"	p	class:fcm_notify
+title	/home/anoop/Documents/Projects/serveme/server.js	/^            title: 'Siiana',$/;"	p	class:fcm_notify
+title	/home/anoop/Documents/Projects/serveme/server.js	/^        title: 'Siiana',$/;"	p	class:fcm_notify
+to	/home/anoop/Documents/Projects/serveme/server.js	/^            to: mail, \/\/ list of receivers$/;"	p	class:sendMail.mailOptions
+to	/home/anoop/Documents/Projects/serveme/server.js	/^            to: reg_id[i], \/\/ required fill with device token or topics$/;"	p	class:var.message
+type	/home/anoop/Documents/Projects/serveme/server.js	/^        type: "special",$/;"	p	class:fcm_notify
+unless	/home/anoop/Documents/Projects/serveme/server.js	/^var unless = function(path, middleware) {$/;"	f
+userid	/home/anoop/Documents/Projects/serveme/server.js	/^        "userid":doc._id.toString(),$/;"	p	class:send_notifications.data
+userid	/home/anoop/Documents/Projects/serveme/server.js	/^        "userid":doc._id.toString(),$/;"	p	class:special_notifications.data
+walletAmountSubtract	/home/anoop/Documents/Projects/serveme/general.js	/^    function walletAmountSubtract(jobid){$/;"	f	function:module.exports
