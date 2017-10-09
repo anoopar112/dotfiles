@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	mate-terminal	
+	gnome-terminal	-e fish
 
 # GNOME System Monitor
 ctrl + shift + Escape

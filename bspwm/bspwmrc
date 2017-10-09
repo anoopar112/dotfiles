@@ -1,14 +1,6 @@
 #! /bin/bash
 sxhkd &
-if xrandr -q | grep 'VGA1 connected'; then
-    xrandr --output VGA1 --mode 1360x768 --left-of LVDS1
-	bspc monitor LVDS1 -d web term chat code music 6 7 
-    bspc monitor VGA1 -d I II III IV V VI VII
-else
-	bspc monitor LVDS1 -d web term chat code music 6 7 
-fi
-xrandr --output LVDS1 --mode 1366x768
-bspc monitor LVDS1 -d web term chat code music 6 7 
+bspc monitor -d web term chat code music 6 7 
 
 
 bspc config border_width         0 
@@ -38,30 +30,19 @@ bspc config super mod4
 bspc config pointer_action1 move
 bspc config pointer_action2 none
 bspc config pointer_action3 resize_corner
-#bspc config click_to_focus true
-#bspc config focus_follows_pointer true
+bspc config click_to_focus true
+bspc config focus_follows_pointer true
 
 bspc config presel_feedback_color \#aaaaaa
 
 xsetroot -cursor_name left_ptr
  
-feh --randomize --bg-fill ~/Pictures/walls/cars
-compton --config ~/.config/compton.conf -b
+feh --randomize --bg-fill ~/Pictures/walls
+#compton --config ~/.config/compton.conf -b
+xcompmgr -n &
 setxkbmap -option "caps:swapescape"
 redshift-gtk &
 nm-applet &
 polybar top &
-if xrandr -q | grep 'VGA1 connected'; then
-	polybar top2 &
-fi
 dbus-launch indicator-kdeconnect &
-sleep 30 && gnome-screensaver &
- #enable autolock
-sleep 30 && xautolock -time 3 -locker "/home/anoop/Documents/Scripts/locker.sh" -corners +0-0 -cornerdelay 15 -cornerredelay 5 -detectsleep &
- disable cappuccino if enabled
-if [ -f "/home/anoop/Documents/Scripts/cappuccino" ];
-    then rm -f "/home/anoop/Documents/Scripts/cappuccino" &
-fi
-/usr/lib/notification-daemon-1.0/notification-daemon &
-sleep 35 && /home/anoop/Documents/Scripts/start_tasks.sh &
-sleep 5 && /home/anoop/Documents/Scripts/rotate_wall.sh &
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
