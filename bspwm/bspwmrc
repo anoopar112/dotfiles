@@ -1,30 +1,29 @@
 #! /bin/bash
 sxhkd &
-bspc monitor -d web term chat code music 6 7 
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+if xrandr -q | grep 'HDMI1 connected'; then
+	xrandr --output HDMI1 --mode 1920x1080 --left-of eDP1
+	bspc monitor eDP1 -d web term chat code music 6 7  8 9 
+	bspc monitor HDMI1 -d I II III IV V VI VII
+else
+	bspc monitor eDP1 -d web term chat code music 6 7 8 9
+fi
+xrandr --output eDP1 --mode 1920x1080
+bspc monitor eDP1 -d web term chat code music 6 7 8 9
 
 
 bspc config border_width         0 
-bspc config window_gap           5
+bspc config window_gap           1
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-bspc config top_padding          20
+bspc config bottom_padding       0
 
 #bspc desktop ^1 -l monocle
 
-bspc rule -a Gimp desktop=^8 state=floating follow=on
-bspc rule -a Genymotion desktop=^3
-bspc rule -a TelegramDesktop desktop=^3
-bspc rule -a Subl desktop=^4
-bspc rule -a Spotify desktop=^5
-bspc rule -a Lmms desktop=^5
-bspc rule -a mplayer2 state=floating
-bspc rule -a Gedit state=floating
-bspc rule -a Eog state=floating
 bspc rule -a Gpick state=floating
-bspc rule -a albert focus=on
-bspc rule -a plasmashell state=floating
+bspc rule -a plasmashell state=floating focus=on
 
 bspc config super mod4
 bspc config pointer_action1 move
@@ -37,12 +36,33 @@ bspc config presel_feedback_color \#aaaaaa
 
 xsetroot -cursor_name left_ptr
  
-feh --randomize --bg-fill ~/Pictures/walls
-#compton --config ~/.config/compton.conf -b
-xcompmgr -n &
+feh --randomize --bg-fill ~/Pictures/walls/backs
+compton --respect-prop-shadow --config ~/.config/compton.conf -b
 setxkbmap -option "caps:swapescape"
+xinput set-prop "SYN1B7F:00 06CB:7406 Touchpad" "libinput Tapping Enabled" 1
 redshift-gtk &
 nm-applet &
 polybar top &
+if xrandr -q | grep 'HDMI1 connected'; then
+	polybar top2 &
+fi
 dbus-launch indicator-kdeconnect &
-/usr/lib/xfce4/notifyd/xfce4-notifyd &
+sleep 30 && gnome-screensaver &
+ #enable autolock
+sleep 30 && xautolock -time 3 -locker "/home/anoop/Documents/Scripts/locker.sh" -corners +0-0 -cornerdelay 15 -cornerredelay 5 -detectsleep &
+ #disable cappuccino if enabled
+if [ -f "/home/anoop/Documents/Scripts/cappuccino" ];
+   then rm -f "/home/anoop/Documents/Scripts/cappuccino" &
+fi
+sleep 10 && /home/anoop/Documents/Scripts/touchpad.sh
+sleep 11 && /home/anoop/Documents/Scripts/cappuccino.sh
+dunst &
+sleep 35 && /home/anoop/Documents/Scripts/start_tasks.sh &
+sleep 5 && /home/anoop/Documents/Scripts/rotate_wall.sh &
+sleep 5 && /home/anoop/Documents/Scripts/battery_notify.sh &
+/home/anoop/Documents/Scripts/cleanup.sh &&
+at 11:00 am -f /home/anoop/Documents/Scripts/teatime.sh
+at 1:00 pm -f /home/anoop/Documents/Scripts/lunch.sh
+at teatime -f /home/anoop/Documents/Scripts/teatime.sh
+mpd &
+gpg-agent --homedir="/home/anoop" --daemon
