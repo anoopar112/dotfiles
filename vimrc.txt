@@ -1,0 +1,313 @@
+"############################# flags start #############################################
+set hidden
+set number
+set nowrap
+set autochdir  " automatically change window's cwd to file's dir
+set splitbelow
+set splitright
+set nocompatible
+" ........................fold settings...............
+set foldmethod=indent
+set foldcolumn=0
+set nofoldenable
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set noexpandtab
+set pastetoggle=<F5>
+".........................syntastic settings............
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+"......................... airline settings...........
+set laststatus=2
+
+set encoding=utf-8
+
+" Get our vim directory. 
+let s:vim_home ='/home/anoop/.vim'
+" Keep the cursor off the top/bottom edges.
+set scrolloff=3
+set autoindent
+set smartindent
+" Use confirmation dialog.
+set confirm
+" Don't use annoying sounds.
+set visualbell
+" Remember lots of commands.
+set history=1000
+" Show matching braces but not for too long.
+set showmatch
+" Use incremental search, with highlighting,
+" " case-insensitive unless we actually type some
+" " mixed-case stuff.
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+" Enable using the mouse like some everyday guy.
+" Show interesting stuff at the bottom of the window.
+set showcmd
+set ruler
+" Don't pollute the hard-drive with *~ files. Only
+" " create them in hidden backup/temp directories while
+" " we edit the file, and then get rid of it.
+set nobackup
+set writebackup
+execute('set backupdir='.s:vim_home.'/backup')
+execute('set directory='.s:vim_home.'/temp')
+" Better command-line completion, but don't show some
+" stuff we don't care about.
+set wildmenu
+set wildmode=list:longest
+set wildignore+=.DS_Store,Thumbs.db
+set wildignore+=*.so,*.dll,*.exe,*.lib,*.pdb
+set wildignore+=*.pyc,*.pyo
+set wildignore+=*.swp"
+" Smooth terminal experience.
+set ttyfast
+" Allow backspacing over anything.
+set backspace=indent,eol,start
+
+" Going left and right let you go to other lines.
+set whichwrap+=<,>,h,l
+" How to show invisible characters
+set list
+set listchars=tab:׀\ ,eol:¬
+"set list listchars=tab:\|\ 
+" Nice auto-complete menu.
+set complete=.,w,b,u,t
+set completeopt=longest,menuone,preview
+set clipboard=unnamedplus
+"############################### flags end ################################################
+filetype    plugin indent on
+syntax      on
+" ........................interface settings...........
+"colo dues
+"set background=dark
+
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Vundle Start $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+call plug#begin()
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree',{'on':'NERDTreeToggle'}
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
+Plug 'ervandew/supertab'
+Plug 'scrooloose/syntastic'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'mattn/emmet-vim',{'for':['html','htmldjango']}
+Plug 'scrooloose/nerdcommenter'
+Plug 'vim-scripts/vim-auto-save'
+Plug 'tell-k/vim-autopep8',{'for':'python'}
+Plug 'tmhedberg/matchit'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'xolox/vim-misc'
+Plug 'SirVer/ultisnips'
+Plug 'majutsushi/tagbar'
+Plug 'leafgarland/typescript-vim',{'for':'typescript'}
+Plug 'Shougo/vimproc.vim'
+Plug 'Quramy/tsuquyomi',{'for':'typescript'}
+Plug 'Chiel92/vim-autoformat'
+Plug 'irrationalistic/vim-tasks'
+call plug#end()
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Vundle End $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+"******************************** Key Mappings *******************************************
+map <F2> :NERDTreeToggle<CR>
+map <F9> :TagbarToggle<CR>
+map <F6> :UltiSnipsEdit<CR>
+map <F7> :set list! number! mouse=<CR>
+noremap <F3> :Autoformat<CR>
+nnoremap <F12> :TsuImport<CR>
+map <C-T> :tabn<CR>
+map <C-G> :tabp<CR>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
+vnoremap <Space> zf
+nnoremap <Tab><Left> :vertical resize -5<CR>
+nnoremap <Tab><Right> :vertical resize +5<CR>
+map gn :bn<cr>
+map gp :bp<cr>
+"****************************** Key Mappings End ******************************************
+
+"------------------------- Ctrlp Settings -------------------------------------------------
+let g:ctrlp_open_new_file                       = 'v'
+let g:ctrlp_custom_ignore                       = {'dir':  '\v[\/](\.git|node_modules|fonts|font)$','file': '\v\.(min.js|min.css|pyc|swp)$',}
+let g:ctrlp_working_path_mode = 'ra'
+autocmd FileType php let g:ctrlp_custom_ignore = {'dir':  '\v[\/](\.git|system|fonts|font|img)$','file': '\v\.(min.js|min.css)$',}
+" Make Ctrl-P cache stuff in our temp directory.
+let g:ctrlp_cache_dir = s:vim_home.'/cache'
+" Remember things.
+let g:ctrlp_clear_cache_on_ext = 0
+
+" Don't include some stuff in the most recently used list.
+let g:ctrlp_mruf_exclude = 'hg\-editor\-\d+\.txt'
+
+" Enable some cool extensions.
+let g:ctrlp_extensions = [
+            \'tag', 'buffertag', 'quickfix', 'mixed', 'bookmarkdir',
+            \'autoignore'
+            \]
+"------------------------- Ctrlp Settings End ---------------------------------------------
+
+"-------------------------- Syntastic Settings --------------------------------------------
+let g:syntastic_always_populate_loc_list        = 1
+let g:syntastic_auto_loc_list                   = 2
+let g:syntastic_check_on_open                   = 1
+let g:syntastic_check_on_wq                     = 0
+"-------------------------- Syntastic Settings End-----------------------------------------
+"---------------------------- Airline Settings --------------------------------------------
+let g:airline_powerline_fonts                   = 1
+let g:airline#extensions#tabline#enabled        = 1
+let g:airline#extensions#syntastic#enabled      = 1
+let g:airline#extensions#fugitive#enabled      = 1
+let g:airline#extensions#tabline#show_buffers   = 1
+"let g:airline#extensions#tabline#show_tab_nr    = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#tabline#fnamemod       = ':t'
+let g:airline_theme='simple'
+let g:airline#extensions#virtualenv#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline_inactive_collapse=1
+let g:airline_mode_map = {
+            \ '__' : '-',
+            \ 'n'  : 'N',
+            \ 'i'  : 'I',
+            \ 'R'  : 'R',
+            \ 'c'  : 'C',
+            \ 'v'  : 'V',
+            \ 'V'  : 'V',
+            \ '' : 'V',
+            \ 's'  : 'S',
+            \ 'S'  : 'S',
+            \ '' : 'S',
+            \ }
+
+
+"---------------------------- Airline Settings End ----------------------------------------
+"---------------------------- Python Specific bindings ------------------------------------
+let python_highlight_all=1
+augroup vimrc_autocmds
+	autocmd!
+	autocmd FileType python highlight Excess ctermbg=DarkGrey guibg=Black
+	autocmd FileType htmldjango highlight Excess ctermbg=NONE guibg=Black
+    autocmd FileType python match Excess /\%80v.*/
+    autocmd FileType python set nowrap
+augroup END
+"---------------------------- Python Specific bindings end  ---------------------------------
+"---------------------------- NerdTree settings ---------------------------------------------
+let NERDTreeIgnore=['\.pyc$', '\~$'] 
+let NERDTreeRespectWildIgnore = 1
+"---------------------------- NerdTree settings End------------------------------------------
+"
+autocmd BufEnter * let &titlestring = hostname() . "[vim(" . expand("%:t") . ")]"
+autocmd InsertEnter * :set relativenumber
+autocmd InsertLeave * :set number norelativenumber
+"------------------------------------ Auto Save  ----------------------------------
+let g:auto_save = 1
+let g:auto_save_in_insert_mode = 0
+"------------------------------------- autopep8 ---------------------------------
+let g:autopep8_disable_show_diff=1
+"------------------------------------ emmet ------------------------------------
+let g:user_emmet_leader_key='<leader>'
+"----------------------------------- ultisnips --------------------------------
+let g:UltiSnipsSnippetsDir='~/.vim/UltiSnips'
+let g:UltiSnipsExpandTrigger="<C-j>"
+let g:UltiSnipsJumpForwardTrigger="<C-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
+" Gutentags {{{
+
+let g:gutentags_ctags_exclude = ['venv', 'build', 'static', 'node_modules']
+let g:gutentags_cache_dir = s:vim_home.'/tags'
+let g:gutentags_options_file = s:vim_home.'/ctagsrc'
+
+" }}}
+" Supertab {{{
+
+"let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabLongestEnhanced = 1
+let g:SuperTabLongestHighlight = 0
+let g:SuperTabCrMapping = 1
+
+" }}}
+augroup VimRCAutoCWD
+    au!
+    autocmd BufReadPost * call s:SetProjectRootCwd(1)
+    autocmd BufEnter * call s:SetProjectRootCwd(0)
+augroup END
+augroup VimRCTrailingWhitespaces
+    au!
+    autocmd FileType php,ruby,python,js,css,less autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+augroup END       
+
+
+function! s:StripTrailingWhitespaces() abort
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfunction
+function! s:FindProjectRoot(cur, marker) abort
+    let l:cur = a:cur
+    let l:previous_cur = ''
+    let l:slash = '/'
+    if has('win32')
+        let l:slash = '\'
+    endif
+    while l:cur != l:previous_cur
+        let l:marker_path = l:cur . l:slash . a:marker
+        if glob(l:marker_path) != ''
+            return fnamemodify(l:cur, ':p')
+        endif
+        let l:previous_cur = l:cur
+        let l:cur = fnamemodify(l:cur, ':h')
+    endwhile
+    return ''
+endfunction
+
+function! s:SetProjectRootCwd(recompute) abort
+    if a:recompute != 1 && exists('b:ludo_workdir')
+        execute 'lcd!' fnameescape(b:ludo_workdir)
+        return
+    endif
+
+    let l:cur_file_dir = expand('%:p:h', 1)
+    if l:cur_file_dir =~ '\v^(\w+:)?(//|\\\\)'
+        " Don't do shit on filenames coming from the network or something.
+        return
+    endif
+    let l:found_root = 0
+    let l:root = ''
+    let l:markers = []
+    if exists('g:ctrlp_root_markers')
+        let l:markers += g:ctrlp_root_markers
+    endif
+    let l:markers += ['.git', '.hg', '.svn', '.bzr', '_darcs']
+    let l:unique_markers = []
+    for marker in l:markers
+        if index(l:unique_markers, marker) < 0
+            call add(l:unique_markers, marker)
+        endif
+    endfor
+    " Find the project root closest to the current file.
+    for marker in l:unique_markers
+        let l:proj_root = s:FindProjectRoot(l:cur_file_dir, marker)
+        if l:proj_root != '' && len(l:proj_root) > len(l:root)
+            let l:root = l:proj_root
+            let l:found_root = 1
+        endif
+    endfor
+    if l:found_root
+        let b:ludo_workdir = l:root
+        execute 'lcd!' fnameescape(l:root)
+    endif
+endfunction
+
